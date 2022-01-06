@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    tools:context=".app_related.pagina_contact"
+    tools:visibility="visible">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logoinsta"
+            android:layout_width="98dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="-20dp"
+            android:layout_marginTop="-30dp"
+            android:translationY="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logofb"
+            app:srcCompat="@drawable/logo_insta" />
+
+        <TextView
+            android:id="@+id/instaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Trandaf10 | Trandafphoto"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:translationY="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/logoinsta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toEndOf="@+id/logoinsta"
+            app:layout_constraintTop_toBottomOf="@+id/logofb"
+            app:layout_constraintVertical_bias="0.23" />
+
+        <ImageView
+            android:id="@+id/logofb"
+            android:layout_width="98dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="-15dp"
+            android:layout_marginTop="-15dp"
+            android:translationY="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo_facebook" />
+
+
+        <TextView
+            android:id="@+id/textFb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Trandafir Andrei"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:translationY="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/logofb"
+            app:layout_constraintEnd_toEndOf="@+id/instaText"
+            app:layout_constraintStart_toStartOf="@+id/instaText"
+            app:layout_constraintTop_toTopOf="@+id/logofb"
+            app:layout_constraintVertical_bias="0.573" />
+
+        <ImageView
+            android:id="@+id/pozadescriere"
+            android:layout_width="222dp"
+            android:layout_height="392dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-30dp"
+            android:translationY="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logoinsta"
+            app:srcCompat="@drawable/contact" />
+
+
+        <TextView
+            android:id="@+id/textDescriere"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:translationY="20dp"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".masini.pagina_masini_rabla"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buton_masini_rabla_rabla_clasic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rabla Clasic"
+            android:translationX="85dp" />
+
+        <Button
+            android:id="@+id/buton_masini_rabla_rabla_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rabla Plus"
+            android:translationX="-95dp"
+            android:translationY="-48dp" />
+
+
+        <!--titlu-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mașini electrice disponibile"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:translationY="-40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="prin programul rabla"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:translationY="-40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="La prețul afișat scadeți €10.500 (Rabla+)"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="15sp"
+            android:translationY="-40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Apăsați pe imagine pentru mai multe detalii"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="15sp"
+            android:translationY="-40dp" />
+
+        <!--
+         MASINI DE AICI
+         MASINI DE AICI
+         MASINI DE AICI
+         MASINI DE AICI
+         MASINI DE AICI
+        -->
+
+
+
+
+        <!--MODEL S-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Tesla Model S"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/teslamodels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/masini_rabla_models"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <!--MODEL3-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✦Tesla Model 3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/teslamodel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="model3"
+            android:src="@drawable/masini_rabla_model3"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--MODELX-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="✦Tesla Model X"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/teslamodelx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/masini_rabla_modelx"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <!--MODELY-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Tesla Model Y"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/teslamodely"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="modely"
+            android:src="@drawable/masini_rabla_modely"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <!--SPRING-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Dacia Spring"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/daciaspring"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="spring"
+            android:src="@drawable/masini_rabla_spring"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--E-GOLF-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Volkswagen eGolf"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/egolf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="egolf"
+            android:src="@drawable/masini_rabla_egolf"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--eUP-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Volkswagen eUp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/eup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="eup"
+            android:src="@drawable/masini_rabla_eup"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--ID3-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Volkswagen ID3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/id3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/masini_rabla_id3"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--ID4-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Volkswagen ID4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/id4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="id4"
+            android:src="@drawable/masini_rabla_id4"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--E208-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Peugeot e-208"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/e208"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="e208"
+            android:src="@drawable/masini_rabla_e208"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--E2008-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Peugeot e-2008"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/e2008"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="e2008"
+            android:src="@drawable/masini_rabla_e2008"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--BMW i3-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦BMW i3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/i3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="id4"
+            android:src="@drawable/masini_rabla_i3"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--ZOE-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Renault ZOE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/zoe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="id4"
+            android:src="@drawable/masini_rabla_zoe"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--KONA-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Hyundai Kona EV"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/kona"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="kona"
+            android:src="@drawable/masini_rabla_kona"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--IONIQ-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Hyundai IONIQ"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/ioniq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="ioniq"
+            android:src="@drawable/masini_rabla_ioniq"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--MINI-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Mini Cooper EV"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/mini"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="mini"
+            android:src="@drawable/masini_rabla_mini"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--MX30-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Mazda MX-30"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/mx30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="mx30"
+            android:src="@drawable/masini_rabla_mx30"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--LEAF-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Nissan Leaf"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/leaf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="leaf"
+            android:src="@drawable/masini_rabla_leaf"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--CORSAe-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Opel Corsa-e"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/corsae"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="corsae"
+            android:src="@drawable/masini_rabla_corsae"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--MOKKAe-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Opel Mokka-e"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/mokkae"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="mokka"
+            android:src="@drawable/masini_rabla_mokka"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--smart-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Smart EQ forfour"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/smart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="smart"
+            android:src="@drawable/masini_rabla_smartforfor"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--hondae-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Honda e"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/hondae"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="hondae"
+            android:src="@drawable/masini_rabla_hondae"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+
+        <!--FIAT500-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦Fiat500 electric"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/fiat500"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="fiat500"
+            android:src="@drawable/masini_rabla_fiat500"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+</ScrollView>
+

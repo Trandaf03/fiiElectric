@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fielectric">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="fiiElectric!"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FiElectric">
+        <activity
+            android:name=".masini.pagina_masini_scoateBanii"
+            android:exported="true" />
+        <activity
+            android:name=".masini.pagina_masini_AvantajeVsDezavantaje"
+            android:exported="true" />
+        <activity
+            android:name=".masini.pagina_masini_rabla"
+            android:exported="true" />
+        <activity
+            android:name=".app_related.pagina_setari"
+            android:exported="true"
+            android:label="Setari"
+            android:parentActivityName=".app_related.pagina_principala" />
+        <activity
+            android:name=".app_related.pagina_bibliografie"
+            android:exported="true"
+            android:label="Bibliografie"
+            android:parentActivityName=".app_related.pagina_despre" />
+        <activity
+            android:name=".masini.pagina_masini"
+            android:exported="true"
+            android:label="Masini Electrice"
+            android:parentActivityName=".app_related.pagina_principala" />
+        <activity
+            android:name=".biciclete.pagina_biciclete"
+            android:exported="true"
+            android:label="Biciclete Electrice"
+            android:parentActivityName=".app_related.pagina_principala" />
+        <activity
+            android:name=".trotinete.pagina_trotinete"
+            android:exported="true"
+            android:label="Trotinete Electrice"
+            android:parentActivityName=".app_related.pagina_principala" />
+        <activity
+            android:name=".motociclete.pagina_motociclete"
+            android:exported="true"
+            android:label="Motociclete Electrice"
+            android:parentActivityName=".app_related.pagina_principala" />
+        <activity
+            android:name=".app_related.pagina_updates"
+            android:exported="true"
+            android:label="Actualizari"
+            android:parentActivityName=".app_related.pagina_principala" />
+        <activity
+            android:name=".app_related.pagina_contact"
+            android:exported="true"
+            android:label="Conctact"
+            android:parentActivityName=".app_related.pagina_principala" />
+        <activity
+            android:name=".app_related.pagina_despre"
+            android:exported="true"
+            android:label="Setari"
+            android:parentActivityName=".app_related.pagina_principala" />
+        <activity
+            android:name=".app_related.pagina_principala"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

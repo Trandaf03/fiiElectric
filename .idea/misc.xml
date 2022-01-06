@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_informatii_rabla.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_meniu_contact.xml" value="0.25" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_meniu_setari.xml" value="0.2" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_bibliografie.xml" value="0.22" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_biciclete.xml" value="0.17418032786885246" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_contact.xml" value="0.25" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_despre.xml" value="0.25" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini.xml" value="0.25" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_electric_vscombustibil.xml" value="0.22" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_mergi_verde.xml" value="0.1" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_rabla.xml" value="0.1" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_scoate_banii.xml" value="0.22" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_scoate_banii_consumabile.xml" value="0.25" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_motociclete.xml" value="0.17418032786885246" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_setari.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_trotinete.xml" value="0.17418032786885246" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_updates.xml" value="0.19637978142076504" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/content_scrolling.xml" value="0.1987704918032787" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/layout_pagina_masini_rabla_scoate_banii_dialog_consumabile.xml" value="0.15403005464480873" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/meniu_header.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/layout/settings_activity.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/menu/meniu_lateral.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/menu/meniu_principal.xml" value="0.262037037037037" />
+        <entry key="..\:/Users/Trandaf/AndroidStudioProjects/fiElectric/app/src/main/res/menu/menu_pagina_updates.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_cevanica.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_main.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_bibliografie.xml" value="0.22" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_biciclete.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_contact.xml" value="0.25" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_despre.xml" value="0.25" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini.xml" value="0.33" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_AvantajeVsDezavantaje.xml" value="0.18203551912568305" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_avantaje_dezavantaje.xml" value="0.33" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_electric_vscombustibil.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_mergi_verde.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_rabla.xml" value="0.5" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_masini_scoate_banii.xml" value="0.33" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/activity_pagina_setari.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/layout/meniu_header.xml" value="0.24121621621621622" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/fiElectric/app/src/main/res/xml/root_preferences.xml" value="0.24121621621621622" />
+        <entry key="..\:/fiElectric/app/src/main/res/layout/activity_main.xml" value="0.24121621621621622" />
+        <entry key="..\:/fiElectric/app/src/main/res/layout/activity_pagina_biciclete.xml" value="0.24121621621621622" />
+        <entry key="..\:/fiElectric/app/src/main/res/layout/activity_pagina_masini.xml" value="0.24121621621621622" />
+        <entry key="..\:/fiElectric/app/src/main/res/layout/activity_pagina_masini_rabla.xml" value="0.24121621621621622" />
+        <entry key="..\:/fiElectric/app/src/main/res/layout/activity_test.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

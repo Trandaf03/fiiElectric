@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app_related.pagina_despre">
+
+    <Button
+        android:id="@+id/bibliografie"
+        android:layout_width="227dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="Vezi mai multe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textVersiune"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="24dp"
+        android:text="Versiune:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/versiuneCurenta"
+        app:layout_constraintEnd_toStartOf="@+id/versiuneCurenta"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/versiuneCurenta"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/veziUpdates"
+        android:layout_width="227dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:text="Vezi detalii"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bibliografie" />
+
+    <TextView
+        android:id="@+id/versiuneCurenta"
+        android:layout_width="179dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/changeLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizări:"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/veziUpdates"
+        app:layout_constraintEnd_toStartOf="@+id/veziUpdates"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/veziUpdates" />
+
+    <TextView
+        android:id="@+id/textBibliografie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bibliografie:"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bibliografie"
+        app:layout_constraintEnd_toStartOf="@+id/bibliografie"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bibliografie" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
