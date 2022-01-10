@@ -32,10 +32,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="30sp"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:translationY="0dp"
             app:layout_constraintBottom_toBottomOf="@+id/logoinsta"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.53"
@@ -61,8 +60,8 @@
             android:layout_gravity="center"
             android:textAlignment="center"
             android:textAllCaps="false"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:translationY="20dp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="@+id/logofb"
             app:layout_constraintEnd_toEndOf="@+id/instaText"
             app:layout_constraintStart_toStartOf="@+id/instaText"
@@ -88,7 +87,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="20sp"
             android:translationY="20dp"
             android:layout_marginBottom="40dp"/>
     </LinearLayout>

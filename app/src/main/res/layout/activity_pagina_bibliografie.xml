@@ -11,7 +11,8 @@
         android:id="@+id/bibliografieScris"
         android:layout_width="330dp"
         android:layout_height="match_parent"
+        android:fontFamily="@font/firasansblack"
+        android:textSize="15sp"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:layout_gravity="center_horizontal"/>
 </ScrollView>

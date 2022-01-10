@@ -10,6 +10,12 @@ import android.widget.TextView;
 
 import com.example.fielectric.R;
 
+/**TODO TEXT FONTS HERE
+ * titlu: android:fontFamily="@font/firasansextrabolditalic" + android:textSize="20sp" dimensiune
+ * text:  android:fontFamily="@font/firasansblack" + android:textSize="15sp" dimensiune
+ * butoane: android:fontFamily="@font/firasansmedium" + android:textSize="15sp"
+ *
+ * */
 public class pagina_bibliografie extends AppCompatActivity {
 
     private TextView biblio;

@@ -19,15 +19,20 @@
             android:id="@+id/masini_avantaje"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/firasansextrabolditalic"
             android:gravity="center"
             android:text="Avantaje"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="48sp"
             android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/masini_rabla_avantaje1"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
             android:layout_weight="0.8"
             android:text="" />
 
@@ -38,8 +43,13 @@
 
         <TextView
             android:id="@+id/masini_rabla_avantaje2"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_weight="0.8"
             android:text="" />
 
         <TextView
@@ -49,8 +59,12 @@
 
         <TextView
             android:id="@+id/masini_rabla_avantaje3"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
             android:text="" />
 
         <TextView
@@ -60,7 +74,11 @@
 
         <TextView
             android:id="@+id/masini_rabla_avantaje4"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
             android:layout_height="wrap_content"
             android:text="" />
 
@@ -71,7 +89,11 @@
 
         <TextView
             android:id="@+id/masini_rabla_avantaje5"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
             android:layout_height="wrap_content"
             android:text="" />
 
@@ -82,12 +104,17 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Dezvantaje"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="48sp"
             android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/masini_rabla_dezavantaje1"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
             android:layout_height="wrap_content"
             android:text="" />
 
@@ -98,7 +125,11 @@
 
         <TextView
             android:id="@+id/masini_rabla_dezavantaje2"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
             android:layout_height="wrap_content"
             android:text="" />
 
@@ -109,7 +140,11 @@
 
         <TextView
             android:id="@+id/masini_rabla_dezavantaje3"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
             android:layout_height="wrap_content"
             android:text="" />
 
@@ -120,7 +155,11 @@
 
         <TextView
             android:id="@+id/masini_rabla_dezavantaje4"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
             android:layout_height="wrap_content"
             android:text="" />
 
@@ -131,7 +170,11 @@
 
         <TextView
             android:id="@+id/masini_rabla_dezavantaje5"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/firasansblack"
+            android:textSize="15sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
             android:layout_height="wrap_content"
             android:text="" />
     </LinearLayout>

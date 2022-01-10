@@ -16,8 +16,9 @@ public class pagina_despre extends AppCompatActivity {
     private Button veziBibliografie;
     private TextView versiune;
 
-
-    private String versiunePrezent = "alpha 0.6";
+    //TODO Update build version very time
+    // somehow need to automate this but meh
+    private String versiunePrezent = "Versiune curentă: alpha 0.8";
 
 
     @Override
@@ -28,7 +29,7 @@ public class pagina_despre extends AppCompatActivity {
 
          veziUpdateuri = (Button) findViewById(R.id.veziUpdates);
          veziBibliografie = (Button) findViewById(R.id.bibliografie);
-         versiune = (TextView) findViewById(R.id.versiuneCurenta);
+         versiune = (TextView) findViewById(R.id.textVersiune);
          versiune.setText(versiunePrezent);
 
         veziBibliografie.setOnClickListener(new View.OnClickListener() {

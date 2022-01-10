@@ -39,8 +39,8 @@
             android:layout_gravity="center"
             android:text="Mașini electrice disponibile"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="22sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:translationY="-40dp" />
 
@@ -50,8 +50,8 @@
             android:layout_gravity="center"
             android:text="prin programul rabla"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="22sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:translationY="-40dp" />
 
@@ -61,7 +61,7 @@
             android:layout_gravity="center"
             android:text="La prețul afișat scadeți €10.500 (Rabla+)"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:fontFamily="@font/firasansblack"
             android:textSize="15sp"
             android:translationY="-40dp" />
 
@@ -71,7 +71,7 @@
             android:layout_gravity="center"
             android:text="Apăsați pe imagine pentru mai multe detalii"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:fontFamily="@font/firasansblack"
             android:textSize="15sp"
             android:translationY="-40dp" />
 
@@ -91,8 +91,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Tesla Model S"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -110,8 +110,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="✦Tesla Model 3"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -130,8 +130,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="✦Tesla Model X"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -151,8 +151,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Tesla Model Y"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -190,8 +190,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Volkswagen eGolf"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -210,8 +210,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Volkswagen eUp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -230,8 +230,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Volkswagen ID3"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -249,8 +249,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Volkswagen ID4"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -269,8 +269,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Peugeot e-208"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -289,8 +289,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Peugeot e-2008"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -309,8 +309,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦BMW i3"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -329,8 +329,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Renault ZOE"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -349,8 +349,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Hyundai Kona EV"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -369,8 +369,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Hyundai IONIQ"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -389,8 +389,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Mini Cooper EV"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -409,8 +409,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Mazda MX-30"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -429,8 +429,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Nissan Leaf"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -449,8 +449,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Opel Corsa-e"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -469,8 +469,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Opel Mokka-e"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -489,8 +489,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Smart EQ forfour"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -509,8 +509,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Honda e"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
@@ -529,8 +529,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Fiat500 electric"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
