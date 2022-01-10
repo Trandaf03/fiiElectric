@@ -23,10 +23,33 @@
             android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-        <FrameLayout
+
+        <LinearLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ultimele știri"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:padding="10dp">
+            </TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycler_view_pagina_principala">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+
     </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView

@@ -17,7 +17,7 @@ public class pagina_despre extends AppCompatActivity {
     private TextView versiune;
 
 
-    public String versiunePrezent = "alpha 0.6";
+    private String versiunePrezent = "alpha 0.6";
 
 
     @Override
