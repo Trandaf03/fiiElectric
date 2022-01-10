@@ -71,7 +71,7 @@ public class pagina_masini_scoateBanii extends AppCompatActivity {
                  }
 
                  if(calcul_kmAnual == 0){
-                     afisareRezultat("Completează câți km mergi anual");
+                     afisareRezultat("Completează câți kilometrii mergi anual");
                  } else if(calcul_pretMasinaElectrica == 0){
                      afisareRezultat("Completează prețul mașinii electrice");
                  } else {
@@ -105,22 +105,24 @@ public class pagina_masini_scoateBanii extends AppCompatActivity {
                      if(maiMulteDetalii == false) {
                          afisareRezultat("O să îți recuperezi banii investiți într-o mașină electrică în " + Math.round(calcul_rezultat) + " de ani");
                      } else {
-                         double cv1 = (calcul_kmAnual / 100) * calcul_consum * calcul_combustibil;
-                         double cv2 = (calcul_kmAnual / 10000) * calcul_consumabil;
-                         double cv3 = cv1 + cv2 - calcul_consumElectric;
-                         double cv4 = Math.round(calcul_rezultat);
+                         double pret_combustibil = (calcul_kmAnual / 100) * calcul_consum * calcul_combustibil;
+                         double pret_consumabile = (calcul_kmAnual / 10000) * calcul_consumabil;
+                         double cheltuieli_anuale = pret_combustibil + pret_consumabile - calcul_consumElectric;
+                         double recuperare_bani = Math.round(calcul_rezultat * 100) / 100;
 
-                         afisareRezultat("Consum: " + calcul_consum + " l/100km "+
-                                 "\nPreț combustibil: " + calcul_combustibil + " lei" +
-                                 "\nPreț consumabile: " + calcul_consumabil + " lei" +
-                                 "\nConsum mașină electrică: 14kWh/100km"+
-                                 "\n(Aceste 4 valori sunt cele mai comune din rândul lor)" +
-                                 "\nPreț electricitate: " + calcul_consumElectric + "lei" +
-                                 "\nPreț combustibil/an: " + Math.round(cv1) +
-                                 "\nPreț consumabile/an: " + Math.round(cv2) +
-                                 "\nPreț mașina: " + Math.round(calcul_pretMasinaElectrica) + " lei"+
-                                 "\nCheltuieli anuale: " + Math.round(cv3) + " lei" +
-                                 "\nO să îți recuperezi banii investiți într-o mașină electrică în " + cv4 + " de ani");
+                             afisareRezultat("Consum: " + calcul_consum + " l/100km "+
+                                     "\nPreț combustibil: " + calcul_combustibil + " lei" +
+                                     "\nPreț consumabile: " + calcul_consumabil + " lei" +
+                                     "\nConsum mașină electrică: 14kWh/100km"+
+                                     "\n" +
+                                     "\nPreț electricitate: " + calcul_consumElectric + "lei" +
+                                     "\nPreț combustibil/an: " + Math.round(pret_combustibil) +
+                                     "\nPreț consumabile/an: " + Math.round(pret_consumabile) +
+                                     "\nPreț mașina: " + Math.round(calcul_pretMasinaElectrica) + " lei"+
+                                     "\nCheltuieli anuale: " + Math.round(cheltuieli_anuale) + " lei" +
+                                     "\nO să îți recuperezi banii investiți într-o mașină electrică în " + recuperare_bani + " de ani");
+
+
                      }
                  }
             }
