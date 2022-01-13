@@ -7,17 +7,14 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.ViewGroup;
 
 import com.example.fielectric.R;
 import com.example.fielectric.appUtil.item_adapter;
-import com.example.fielectric.appUtil.item_stire;
 import com.example.fielectric.appUtil.item_stire_data;
 import com.example.fielectric.biciclete.pagina_biciclete;
 import com.example.fielectric.masini.pagina_masini;
@@ -58,7 +55,7 @@ public class pagina_principala extends AppCompatActivity implements NavigationVi
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         listData = new ArrayList<>();
-        for(int i = 1 ; i <= 10 ; i++){
+        for(int i = 1 ; i <= 15 ; i++){
             item_stire_data data = new item_stire_data("titlu " + i, "descriere");
             listData.add(data);
         }
