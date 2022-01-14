@@ -1,4 +1,4 @@
-package com.example.fielectric.appUtil;
+package com.example.fiielectric.appUtil;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -10,64 +10,64 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FiElectric">
         <activity
-            android:name=".masini.pagina_masini_dezavantaje"
+            android:name="com.example.fiielectric.masini.pagina_masini_dezavantaje"
             android:exported="false" />
         <activity
-            android:name=".masini.pagina_masini_scoateBanii"
+            android:name="com.example.fiielectric.masini.pagina_masini_scoateBanii"
             android:exported="true" />
         <activity
-            android:name=".masini.pagina_masini_avantaje"
+            android:name="com.example.fiielectric.masini.pagina_masini_avantaje"
             android:exported="true" />
         <activity
-            android:name=".masini.pagina_masini_rabla"
+            android:name="com.example.fiielectric.masini.pagina_masini_rabla"
             android:exported="true" />
         <activity
-            android:name=".app_related.pagina_setari"
+            android:name="com.example.fiielectric.app_related.pagina_setari"
             android:exported="true"
             android:label="Setari"
-            android:parentActivityName=".app_related.pagina_principala" />
+            android:parentActivityName="com.example.fiielectric.app_related.pagina_principala" />
         <activity
-            android:name=".app_related.pagina_bibliografie"
+            android:name="com.example.fiielectric.app_related.pagina_bibliografie"
             android:exported="true"
             android:label="Bibliografie"
-            android:parentActivityName=".app_related.pagina_despre" />
+            android:parentActivityName="com.example.fiielectric.app_related.pagina_despre" />
         <activity
-            android:name=".masini.pagina_masini"
+            android:name="com.example.fiielectric.masini.pagina_masini"
             android:exported="true"
             android:label="Masini Electrice"
-            android:parentActivityName=".app_related.pagina_principala" />
+            android:parentActivityName="com.example.fiielectric.app_related.pagina_principala" />
         <activity
-            android:name=".biciclete.pagina_biciclete"
+            android:name="com.example.fiielectric.biciclete.pagina_biciclete"
             android:exported="true"
             android:label="Biciclete Electrice"
-            android:parentActivityName=".app_related.pagina_principala" />
+            android:parentActivityName="com.example.fiielectric.app_related.pagina_principala" />
         <activity
-            android:name=".trotinete.pagina_trotinete"
+            android:name="com.example.fiielectric.trotinete.pagina_trotinete"
             android:exported="true"
             android:label="Trotinete Electrice"
-            android:parentActivityName=".app_related.pagina_principala" />
+            android:parentActivityName="com.example.fiielectric.app_related.pagina_principala" />
         <activity
-            android:name=".motociclete.pagina_motociclete"
+            android:name="com.example.fiielectric.motociclete.pagina_motociclete"
             android:exported="true"
             android:label="Motociclete Electrice"
-            android:parentActivityName=".app_related.pagina_principala" />
+            android:parentActivityName="com.example.fiielectric.app_related.pagina_principala" />
         <activity
-            android:name=".app_related.pagina_updates"
+            android:name="com.example.fiielectric.app_related.pagina_updates"
             android:exported="true"
             android:label="Actualizari"
-            android:parentActivityName=".app_related.pagina_principala" />
+            android:parentActivityName="com.example.fiielectric.app_related.pagina_principala" />
         <activity
-            android:name=".app_related.pagina_contact"
+            android:name="com.example.fiielectric.app_related.pagina_contact"
             android:exported="true"
             android:label="Conctact"
-            android:parentActivityName=".app_related.pagina_principala" />
+            android:parentActivityName="com.example.fiielectric.app_related.pagina_principala" />
         <activity
-            android:name=".app_related.pagina_despre"
+            android:name="com.example.fiielectric.app_related.pagina_despre"
             android:exported="true"
             android:label="Setari"
-            android:parentActivityName=".app_related.pagina_principala" />
+            android:parentActivityName="com.example.fiielectric.app_related.pagina_principala" />
         <activity
-            android:name=".app_related.pagina_principala"
+            android:name="com.example.fiielectric.app_related.pagina_principala"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
