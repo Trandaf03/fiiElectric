@@ -1,22 +1,22 @@
 package com.example.fielectric.appUtil;
 
-
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.fielectric.R;
 
 import java.util.List;
-import java.util.ListIterator;
 
-public class item_adapter extends RecyclerView.Adapter<item_adapter.ViewHolder>{
+public class item_adapter extends RecyclerView.Adapter<item_adapter.ViewHolder> {
     private List<item_stire_data> listItems;
     private Context context;
 
@@ -28,8 +28,8 @@ public class item_adapter extends RecyclerView.Adapter<item_adapter.ViewHolder>{
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_item_stire,parent, false);
-        return  new ViewHolder(v);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_item_stire, parent, false);
+        return new ViewHolder(v);
     }
 
     @Override
@@ -37,7 +37,8 @@ public class item_adapter extends RecyclerView.Adapter<item_adapter.ViewHolder>{
         item_stire_data listItem = listItems.get(position);
 
         holder.titlu.setText(listItem.getTitle());
-        holder.titlu.setText(listItem.getDesc());
+        holder.descriere.setText(listItem.getDesc());
+        holder.imagine.setImageResource(listItem.getImagine());
     }
 
     @Override
@@ -48,7 +49,8 @@ public class item_adapter extends RecyclerView.Adapter<item_adapter.ViewHolder>{
 
 
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+
+    public class ViewHolder extends RecyclerView.ViewHolder {
         public TextView titlu;
         public TextView descriere;
         public ImageView imagine;
@@ -60,4 +62,5 @@ public class item_adapter extends RecyclerView.Adapter<item_adapter.ViewHolder>{
             imagine = (ImageView) itemView.findViewById(R.id.imagine_stire);
         }
     }
+
 }

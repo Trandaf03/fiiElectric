@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -28,6 +29,7 @@ import java.util.List;
 public class pagina_principala extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
+
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
 
@@ -38,15 +40,15 @@ public class pagina_principala extends AppCompatActivity implements NavigationVi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar_principal);
         setSupportActionBar(toolbar);
 
-        drawer = findViewById(R.id.drawer_layout);
-        NavigationView navigationView = findViewById(R.id.naw_view);
+        drawer = findViewById(R.id.meniu_principal_drawer);
+        NavigationView navigationView = findViewById(R.id.naw_view_principal);
         navigationView.setNavigationItemSelectedListener(this);
 
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this,drawer,toolbar,
-                R.string.nav_drawer_open,R.string.nav_drawer_close);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
+                R.string.nav_drawer_open, R.string.nav_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
@@ -55,45 +57,55 @@ public class pagina_principala extends AppCompatActivity implements NavigationVi
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         listData = new ArrayList<>();
-        for(int i = 1 ; i <= 15 ; i++){
+        item_stire_data test = new item_stire_data("test", "test", R.drawable.masini_rabla_corsae);
+        listData.add(test);
+
+        item_stire_data test2 = new item_stire_data("Noua Dacia Spring","BlaBlaBlahjsdhfsdjffhsdjfhdjfsdhfjsd" +
+                "jfdkfjdkfjdkfhjdfkdjfkdjfkdfjdkfjdkfjdfkl;sdjgsiorhjgsruio[trhweirwejrfipwerjfgwer" +
+                "df[lskdfgikopsrjtiopw4erj4w3o-irjkwe4pirfhjferwiourtjhweriprjwerijweiropjweriopwejr" +
+                "rokgferijfweriojrtwerirftjerifjerifjeriproiftjerwiprjweirjweirejrierjejireirejrie",R.drawable.masini_rabla_spring);
+       /* for (int i = 1; i <= 15; i++) {
             item_stire_data data = new item_stire_data("titlu " + i, "descriere");
             listData.add(data);
-        }
-        adapter = new item_adapter(listData,this);
+        }*/
+        listData.add(test2);
+        adapter = new item_adapter(listData, this);
 
         recyclerView.setAdapter(adapter);
     }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.meniu_contact:
+        drawer.closeDrawers();
+        switch (item.getItemId()) {
+            case R.id.meniu_contact_principal:
                 openContact();
                 break;
-            case R.id.meniu_setari:
+            case R.id.meniu_setari_principal:
                 openSettings();
                 break;
-            case R.id.meniu_despre:
+            case R.id.meniu_despre_principal:
                 openDespre();
                 break;
-            case R.id.meniu_masini:
+            case R.id.meniu_masini_principal:
                 openMasini();
                 break;
-            case R.id.meniu_motociclete:
+            case R.id.meniu_motociclete_principal:
                 openMotociclete();
                 break;
-            case R.id.meniu_biciclete:
+            case R.id.meniu_biciclete_principal:
                 openBiciclete();
                 break;
-            case R.id.meniu_trotinete:
+            case R.id.meniu_trotinete_principal:
                 openTrotinete();
                 break;
         }
         return true;
     }
+
     @Override
     public void onBackPressed() {
-        if(drawer.isDrawerOpen(GravityCompat.START)){
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
@@ -101,31 +113,37 @@ public class pagina_principala extends AppCompatActivity implements NavigationVi
         super.onBackPressed();
     }
 
-    private void openDespre(){
+    private void openDespre() {
         Intent intent = new Intent(this, pagina_despre.class);
         startActivity(intent);
     }
-    private void openSettings(){
+
+    private void openSettings() {
         Intent intent = new Intent(this, pagina_setari.class);
         startActivity(intent);
     }
-    private void openContact(){
+
+    private void openContact() {
         Intent intent = new Intent(this, pagina_contact.class);
         startActivity(intent);
     }
-    private void openMasini(){
+
+    private void openMasini() {
         Intent intent = new Intent(this, pagina_masini.class);
         startActivity(intent);
     }
-    private void openBiciclete(){
+
+    private void openBiciclete() {
         Intent intent = new Intent(this, pagina_biciclete.class);
         startActivity(intent);
     }
-    private void openMotociclete(){
+
+    private void openMotociclete() {
         Intent intent = new Intent(this, pagina_motociclete.class);
         startActivity(intent);
     }
-    private void openTrotinete(){
+
+    private void openTrotinete() {
         Intent intent = new Intent(this, pagina_trotinete.class);
         startActivity(intent);
     }

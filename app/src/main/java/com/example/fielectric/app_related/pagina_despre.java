@@ -27,10 +27,10 @@ public class pagina_despre extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina_despre);
 
-         veziUpdateuri = (Button) findViewById(R.id.veziUpdates);
-         veziBibliografie = (Button) findViewById(R.id.bibliografie);
-         versiune = (TextView) findViewById(R.id.textVersiune);
-         versiune.setText(versiunePrezent);
+        veziUpdateuri = (Button) findViewById(R.id.veziUpdates);
+        veziBibliografie = (Button) findViewById(R.id.bibliografie);
+        versiune = (TextView) findViewById(R.id.textVersiune);
+        versiune.setText(versiunePrezent);
 
         veziBibliografie.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,22 +38,23 @@ public class pagina_despre extends AppCompatActivity {
                 openBibliografie();
             }
         });
-         veziUpdateuri.setOnClickListener(new View.OnClickListener() {
-             @Override
-             public void onClick(View view) {
-                 openUpdatesActivity();
-             }
-         });
+        veziUpdateuri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openUpdatesActivity();
+            }
+        });
 
 
     }
 
 
-    private void openUpdatesActivity(){
+    private void openUpdatesActivity() {
         Intent intent = new Intent(this, pagina_updates.class);
         startActivity(intent);
     }
-    private void openBibliografie(){
+
+    private void openBibliografie() {
         Intent intent = new Intent(this, pagina_bibliografie.class);
         startActivity(intent);
     }

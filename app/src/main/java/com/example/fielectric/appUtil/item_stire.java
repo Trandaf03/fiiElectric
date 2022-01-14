@@ -13,6 +13,7 @@ public class item_stire extends AppCompatActivity {
     public ImageView imagine;
     public TextView titlu_stire;
     public TextView text_stire;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
@@ -25,10 +26,12 @@ public class item_stire extends AppCompatActivity {
     public void setImagine(ImageView imagine) {
         this.imagine = imagine;
     }
-    public void setTitlu(String titluStire){
+
+    public void setTitlu(String titluStire) {
         titlu_stire.setText(titluStire);
     }
-    public void setText(String textStire){
+
+    public void setText(String textStire) {
         text_stire.setText(textStire);
     }
 

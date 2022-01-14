@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    tools:showIn="navigation_view_masini">
+
+
+    <item
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="Meniu">
+        <menu>
+            <item
+                android:id="@+id/go_to_prima_pagina_masini"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Prima pagină" />
+            <item
+                android:id="@+id/meniu_program_rabla_masini"
+                android:icon="@drawable/ic_baseline_electric_car_24"
+                android:title="Programul rabla" />
+            <item
+                android:id="@+id/meniu_calculator_masini"
+                android:icon="@drawable/ic_baseline_calculate_24"
+                android:title="Când își scoate masina banii?" />
+
+            <item
+                android:id="@+id/meniu_avantaje_masini"
+                android:icon="@drawable/ic_baseline_keyboard_arrow_up_24"
+                android:title="Avantaje" />
+            <item
+                android:id="@+id/meniu_dezavantaje_masini"
+                android:icon="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:title="Dezavantaje" />
+        </menu>
+    </item>
+
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/meniu_setari_masini"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Setări" />
+        <item
+            android:id="@+id/meniu_despre_masini"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Despre" />
+
+        <item
+            android:id="@+id/meniu_contact_masini"
+            android:icon="@drawable/ic_baseline_contact_support_24"
+            android:title="Contact" />
+    </group>
+</menu>

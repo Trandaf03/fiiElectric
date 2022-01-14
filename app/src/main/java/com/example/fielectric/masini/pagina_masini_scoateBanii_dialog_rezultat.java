@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatDialogFragment;
 public class pagina_masini_scoateBanii_dialog_rezultat extends AppCompatDialogFragment {
 
     private String textAfisare;
+
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
@@ -27,7 +28,7 @@ public class pagina_masini_scoateBanii_dialog_rezultat extends AppCompatDialogFr
         return builder.create();
     }
 
-    public void setTextAfisare(String text){
+    public void setTextAfisare(String text) {
         textAfisare = text;
     }
 

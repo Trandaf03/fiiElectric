@@ -15,6 +15,7 @@ public class pagina_masini_popup extends AppCompatDialogFragment {
 
     private String textAfisare;
     private String textTitlu;
+
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
@@ -30,10 +31,11 @@ public class pagina_masini_popup extends AppCompatDialogFragment {
         return builder.create();
     }
 
-    public void setTextAfisare(String text){
+    public void setTextAfisare(String text) {
         textAfisare = text;
     }
-    public void setTextTitlu(String text){
+
+    public void setTextTitlu(String text) {
         textTitlu = text;
     }
 }

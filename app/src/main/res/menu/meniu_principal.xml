@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view_princpal">
+
+
     <item
-        android:enabled="false"
-        android:icon="@drawable/ic_baseline_settings_24"
-        android:title="Item"
-        android:visible="true"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/settings"
-        android:title="Setari"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/contact"
-        android:title="Contact"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="Categorii">
+        <menu>
+            <item
+                android:id="@+id/meniu_masini_principal"
+                android:icon="@drawable/ic_baseline_electric_car_24"
+                android:title="Masini">
+            </item>
+            <item
+                android:id="@+id/meniu_motociclete_principal"
+                android:icon="@drawable/ic_baseline_electric_moped_24"
+                android:title="Motociclete" />
+            <item
+                android:id="@+id/meniu_trotinete_principal"
+                android:icon="@drawable/ic_baseline_electric_scooter_24"
+                android:title="Trotinete" />
+            <item
+                android:id="@+id/meniu_biciclete_principal"
+                android:icon="@drawable/ic_baseline_electric_bike_24"
+                android:title="Biciclete" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/meniu_setari_principal"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Setari" />
+        <item
+            android:id="@+id/meniu_despre_principal"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Despre" />
+
+        <item
+            android:id="@+id/meniu_contact_principal"
+            android:icon="@drawable/ic_baseline_contact_support_24"
+            android:title="Contact" />
+    </group>
 </menu>

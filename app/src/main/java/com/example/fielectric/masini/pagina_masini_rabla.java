@@ -39,6 +39,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
     private ImageButton smart;
     private ImageButton hondae;
     private ImageButton fiat;
+
     private pagina_masini_popup_texts informatii = new pagina_masini_popup_texts();
 
     @Override
@@ -76,13 +77,19 @@ public class pagina_masini_rabla extends AppCompatActivity {
         rablaPlus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openDialogPlus();
+                pagina_masini_popup dialog = new pagina_masini_popup();
+                dialog.setTextTitlu(informatii.dialog_rabla_plus_title);
+                dialog.setTextAfisare(informatii.dialog_rabla_plus_text);
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         rablaClasic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openDialogClasic();
+                pagina_masini_popup dialog = new pagina_masini_popup();
+                dialog.setTextTitlu(informatii.dialog_rabla_clasic_title);
+                dialog.setTextAfisare(informatii.dialog_rabla_clasic_text);
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
 
@@ -92,7 +99,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.teslamodels_title);
                 dialog.setTextAfisare(informatii.teslamodels_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         teslamodel3.setOnClickListener(new View.OnClickListener() {
@@ -101,7 +108,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.teslamodel3_title);
                 dialog.setTextAfisare(informatii.teslamodel3_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         teslamodelX.setOnClickListener(new View.OnClickListener() {
@@ -110,7 +117,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.teslamodelx_title);
                 dialog.setTextAfisare(informatii.teslamodelx_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         teslamodelY.setOnClickListener(new View.OnClickListener() {
@@ -119,7 +126,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.teslamodely_title);
                 dialog.setTextAfisare(informatii.teslamodely_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         daciaspring.setOnClickListener(new View.OnClickListener() {
@@ -128,7 +135,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.daciaspring_title);
                 dialog.setTextAfisare(informatii.daciaspring_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         egolf.setOnClickListener(new View.OnClickListener() {
@@ -137,7 +144,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.vwegolf_title);
                 dialog.setTextAfisare(informatii.vwegolf_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         eup.setOnClickListener(new View.OnClickListener() {
@@ -146,7 +153,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.vweup_title);
                 dialog.setTextAfisare(informatii.vweup_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         id3.setOnClickListener(new View.OnClickListener() {
@@ -155,7 +162,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.vwid3_title);
                 dialog.setTextAfisare(informatii.vwid3_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         id4.setOnClickListener(new View.OnClickListener() {
@@ -164,7 +171,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.vwid4_title);
                 dialog.setTextAfisare(informatii.vwid4_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         e208.setOnClickListener(new View.OnClickListener() {
@@ -173,7 +180,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.peugeut208_title);
                 dialog.setTextAfisare(informatii.peugeut208_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         e2008.setOnClickListener(new View.OnClickListener() {
@@ -182,7 +189,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.peugeut2008_title);
                 dialog.setTextAfisare(informatii.peugeut2008_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         bmwi3.setOnClickListener(new View.OnClickListener() {
@@ -191,7 +198,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.BMWi3_title);
                 dialog.setTextAfisare(informatii.BMWi3_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         zoe.setOnClickListener(new View.OnClickListener() {
@@ -200,7 +207,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.zoe_title);
                 dialog.setTextAfisare(informatii.zoe_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         kona.setOnClickListener(new View.OnClickListener() {
@@ -209,7 +216,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.kona_title);
                 dialog.setTextAfisare(informatii.kona_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         ioniq.setOnClickListener(new View.OnClickListener() {
@@ -218,7 +225,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.ioniq_title);
                 dialog.setTextAfisare(informatii.ioniq_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         mini.setOnClickListener(new View.OnClickListener() {
@@ -227,7 +234,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.mini_title);
                 dialog.setTextAfisare(informatii.mini_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         mx30.setOnClickListener(new View.OnClickListener() {
@@ -236,7 +243,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.mx30_title);
                 dialog.setTextAfisare(informatii.mx30_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         leaf.setOnClickListener(new View.OnClickListener() {
@@ -245,34 +252,34 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.leaf_title);
                 dialog.setTextAfisare(informatii.leaf_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         corsae.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 pagina_masini_popup dialog = new pagina_masini_popup();
-                dialog.setTextTitlu(informatii.opelcorsae_title );
+                dialog.setTextTitlu(informatii.opelcorsae_title);
                 dialog.setTextAfisare(informatii.opelcorsae_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         mokkae.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 pagina_masini_popup dialog = new pagina_masini_popup();
-                dialog.setTextTitlu(informatii.opelmokkae_title );
+                dialog.setTextTitlu(informatii.opelmokkae_title);
                 dialog.setTextAfisare(informatii.opelmokkae_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         smart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 pagina_masini_popup dialog = new pagina_masini_popup();
-                dialog.setTextTitlu(informatii.smart_title );
+                dialog.setTextTitlu(informatii.smart_title);
                 dialog.setTextAfisare(informatii.smart_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         hondae.setOnClickListener(new View.OnClickListener() {
@@ -281,7 +288,7 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.hondae_title);
                 dialog.setTextAfisare(informatii.hondae_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
         fiat.setOnClickListener(new View.OnClickListener() {
@@ -290,17 +297,8 @@ public class pagina_masini_rabla extends AppCompatActivity {
                 pagina_masini_popup dialog = new pagina_masini_popup();
                 dialog.setTextTitlu(informatii.fiat500_title);
                 dialog.setTextAfisare(informatii.fiat500_text);
-                dialog.show(getSupportFragmentManager(),"exemplu");
+                dialog.show(getSupportFragmentManager(), "exemplu");
             }
         });
-    }
-
-    private void openDialogPlus() {
-        pagina_masini_rabla_dialog_rabla_plus dialog = new pagina_masini_rabla_dialog_rabla_plus();
-        dialog.show(getSupportFragmentManager(), "exemplu");
-    }
-    private void openDialogClasic() {
-        pagina_masini_rabla_dialog_rabla_clasic dialog = new pagina_masini_rabla_dialog_rabla_clasic();
-        dialog.show(getSupportFragmentManager(), "exemplu");
     }
 }

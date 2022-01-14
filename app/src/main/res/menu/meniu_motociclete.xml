@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view_motociclete"
+    tools:ignore="HardcodedText">
+
+
+
+    <item
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="Categorii">
+        <menu>
+            <item
+                android:id="@+id/go_to_prima_pagina_motociclete"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Prima pagină">
+            </item>
+        </menu>
+    </item>
+
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/meniu_setari_motociclete"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Setări" />
+        <item
+            android:id="@+id/meniu_despre_motociclete"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Despre" />
+
+        <item
+            android:id="@+id/meniu_contact_motociclete"
+            android:icon="@drawable/ic_baseline_contact_support_24"
+            android:title="Contact" />
+    </group>
+</menu>

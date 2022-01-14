@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FiElectric">
         <activity
+            android:name=".masini.pagina_masini_dezavantaje"
+            android:exported="false" />
+        <activity
             android:name=".masini.pagina_masini_scoateBanii"
             android:exported="true" />
         <activity
-            android:name=".masini.pagina_masini_AvantajeVsDezavantaje"
+            android:name=".masini.pagina_masini_avantaje"
             android:exported="true" />
         <activity
             android:name=".masini.pagina_masini_rabla"

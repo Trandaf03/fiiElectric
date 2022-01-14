@@ -14,6 +14,7 @@ public class pagina_contact extends AppCompatActivity {
     private TextView text;
     private TextView imagineInsta;
     private TextView imagineFacebook;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

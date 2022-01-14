@@ -81,7 +81,7 @@ public class pagina_updates extends AppCompatActivity {
                 updateTitle5 + updateText5 +
                 updateTitle4 + updateText4 +
                 updateTitle3 + updateText3 +
-                updateTitle2 + updateText2+
+                updateTitle2 + updateText2 +
                 updateTitle1 + updateText1 +
                 totalWorkTime);
 
