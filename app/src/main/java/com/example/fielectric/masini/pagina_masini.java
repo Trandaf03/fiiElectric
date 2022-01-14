@@ -92,8 +92,9 @@ public class pagina_masini extends AppCompatActivity implements NavigationView.O
         Intent intent = new Intent(this, pagina_masini_avantaje.class);
         startActivity(intent);
     }
-    private void openDezavantaje(){
-        Intent intent = new Intent(this,pagina_masini_dezavantaje.class);
+
+    private void openDezavantaje() {
+        Intent intent = new Intent(this, pagina_masini_dezavantaje.class);
         startActivity(intent);
     }
 
