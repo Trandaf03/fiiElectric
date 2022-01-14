@@ -1,4 +1,4 @@
-package com.example.fiielectric.masini;
+package com.trandaf.fiielectric.masini;
 
 import android.app.Dialog;
 import android.content.DialogInterface;

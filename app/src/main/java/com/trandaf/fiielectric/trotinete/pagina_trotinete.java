@@ -1,4 +1,4 @@
-package com.example.fiielectric.trotinete;
+package com.trandaf.fiielectric.trotinete;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -12,10 +12,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
-import com.example.fiielectric.app_related.pagina_contact;
-import com.example.fiielectric.app_related.pagina_despre;
-import com.example.fiielectric.app_related.pagina_principala;
-import com.example.fiielectric.app_related.pagina_setari;
+import com.trandaf.fiielectric.app_related.pagina_contact;
+import com.trandaf.fiielectric.app_related.pagina_despre;
+import com.trandaf.fiielectric.app_related.pagina_principala;
+import com.trandaf.fiielectric.app_related.pagina_setari;
 import com.google.android.material.navigation.NavigationView;
 
 public class pagina_trotinete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {

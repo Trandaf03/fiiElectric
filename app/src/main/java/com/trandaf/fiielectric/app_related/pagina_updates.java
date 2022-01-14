@@ -1,4 +1,4 @@
-package com.example.fiielectric.app_related;
+package com.trandaf.fiielectric.app_related;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
