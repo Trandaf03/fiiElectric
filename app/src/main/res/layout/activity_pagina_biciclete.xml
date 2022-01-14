@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.fiielectric.biciclete.pagina_biciclete"
+    tools:context="com.trandaf.fiielectric.biciclete.pagina_biciclete"
     android:id="@+id/meniu_biciclete_drawer"
     tools:openDrawer="start"
     android:fitsSystemWindows="true"
