@@ -1,4 +1,4 @@
-package com.example.fiielectric.appUtil;
+package com.example.fielectric.appUtil;
 
 import android.graphics.drawable.Drawable;
 

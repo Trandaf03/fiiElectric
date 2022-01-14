@@ -1,11 +1,14 @@
-package com.example.fiielectric.masini;
+package com.example.fielectric.masini;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.Spanned;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.fielectric.R;
 

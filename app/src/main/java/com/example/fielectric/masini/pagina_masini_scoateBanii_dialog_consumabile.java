@@ -1,4 +1,4 @@
-package com.example.fiielectric.masini;
+package com.example.fielectric.masini;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -9,16 +9,14 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
 
-public class pagina_masini_scoateBanii_dialog_rezultat extends AppCompatDialogFragment {
-
-    private String textAfisare;
-
+public class pagina_masini_scoateBanii_dialog_consumabile extends AppCompatDialogFragment {
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle("Rezultat:")
-                .setMessage(textAfisare)
+        builder.setTitle("Consumabile")
+                .setMessage("Vom considera consumabil doar schimbul uleiului de motor și a filtrului acestuia - principalul consumabil al mașinilor cu motor prin ardere internă." +
+                        "\nAstfel, se va introduce prețul acestora la un schimb normal de ulei(de exemplu, schimbul costă 300lei), și se va considera că acesta se face la 10.000km")
                 .setPositiveButton("Am înțeles", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
@@ -27,10 +25,4 @@ public class pagina_masini_scoateBanii_dialog_rezultat extends AppCompatDialogFr
                 });
         return builder.create();
     }
-
-    public void setTextAfisare(String text) {
-        textAfisare = text;
-    }
-
-
 }

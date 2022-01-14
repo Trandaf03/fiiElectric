@@ -1,4 +1,4 @@
-package com.example.fiielectric.biciclete;
+package com.example.fielectric.masini;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -12,27 +12,27 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
-import com.example.fiielectric.app_related.pagina_contact;
-import com.example.fiielectric.app_related.pagina_despre;
-import com.example.fiielectric.app_related.pagina_principala;
-import com.example.fiielectric.app_related.pagina_setari;
+import com.example.fielectric.app_related.pagina_contact;
+import com.example.fielectric.app_related.pagina_despre;
+import com.example.fielectric.app_related.pagina_principala;
+import com.example.fielectric.app_related.pagina_setari;
 import com.google.android.material.navigation.NavigationView;
 
-
-public class pagina_biciclete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class pagina_masini extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pagina_biciclete);
+        setContentView(R.layout.activity_pagina_masini);
 
-        Toolbar toolbar = findViewById(R.id.toolbar_biciclete);
+
+        Toolbar toolbar = findViewById(R.id.toolbar_masini);
         setSupportActionBar(toolbar);
 
-        drawer = findViewById(R.id.meniu_biciclete_drawer);
-        NavigationView navigationView = findViewById(R.id.nav_view_biciclete);
+        drawer = findViewById(R.id.meniu_masini_drawer);
+        NavigationView navigationView = findViewById(R.id.nav_view_masini);
         navigationView.setNavigationItemSelectedListener(this);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
@@ -40,22 +40,34 @@ public class pagina_biciclete extends AppCompatActivity implements NavigationVie
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-
     }
 
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.meniu_contact_biciclete:
+            case R.id.meniu_program_rabla_masini:
+                openRabla();
+                break;
+            case R.id.meniu_avantaje_masini:
+                openAvantaje();
+                break;
+            case R.id.meniu_dezavantaje_masini:
+                openDezavantaje();
+                break;
+            case R.id.meniu_calculator_masini:
+                openReturnRatio();
+                break;
+            case R.id.go_to_prima_pagina_masini:
+                openMeniuPrincipal();
+                break;
+            case R.id.meniu_contact_masini:
                 openContact();
                 break;
-            case R.id.meniu_setari_biciclete:
+            case R.id.meniu_setari_masini:
                 openSettings();
                 break;
-            case R.id.meniu_despre_biciclete:
+            case R.id.meniu_despre_masini:
                 openDespre();
                 break;
-            case R.id.go_to_prima_pagina_biciclete:
-                openMeniuPrincipal();
         }
         return true;
     }
@@ -69,6 +81,25 @@ public class pagina_biciclete extends AppCompatActivity implements NavigationVie
             super.onBackPressed();
         }
         super.onBackPressed();
+    }
+
+    private void openRabla() {
+        Intent intent = new Intent(this, pagina_masini_rabla.class);
+        startActivity(intent);
+    }
+
+    private void openAvantaje() {
+        Intent intent = new Intent(this, pagina_masini_avantaje.class);
+        startActivity(intent);
+    }
+    private void openDezavantaje(){
+        Intent intent = new Intent(this,pagina_masini_dezavantaje.class);
+        startActivity(intent);
+    }
+
+    private void openReturnRatio() {
+        Intent intent = new Intent(this, pagina_masini_scoateBanii.class);
+        startActivity(intent);
     }
 
     private void openMeniuPrincipal() {
@@ -89,7 +120,6 @@ public class pagina_biciclete extends AppCompatActivity implements NavigationVie
     private void openContact() {
         Intent intent = new Intent(this, pagina_contact.class);
         startActivity(intent);
+
     }
-
-
 }

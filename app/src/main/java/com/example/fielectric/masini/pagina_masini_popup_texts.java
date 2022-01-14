@@ -1,4 +1,4 @@
-package com.example.fiielectric.masini;
+package com.example.fielectric.masini;
 
 public class pagina_masini_popup_texts {
 

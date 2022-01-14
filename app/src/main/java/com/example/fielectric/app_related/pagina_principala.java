@@ -1,4 +1,4 @@
-package com.example.fiielectric.app_related;
+package com.example.fielectric.app_related;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -10,16 +10,17 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
-import com.example.fiielectric.appUtil.item_adapter;
-import com.example.fiielectric.appUtil.item_stire_data;
-import com.example.fiielectric.biciclete.pagina_biciclete;
-import com.example.fiielectric.masini.pagina_masini;
-import com.example.fiielectric.motociclete.pagina_motociclete;
-import com.example.fiielectric.trotinete.pagina_trotinete;
+import com.example.fielectric.appUtil.item_adapter;
+import com.example.fielectric.appUtil.item_stire_data;
+import com.example.fielectric.biciclete.pagina_biciclete;
+import com.example.fielectric.masini.pagina_masini;
+import com.example.fielectric.motociclete.pagina_motociclete;
+import com.example.fielectric.trotinete.pagina_trotinete;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;

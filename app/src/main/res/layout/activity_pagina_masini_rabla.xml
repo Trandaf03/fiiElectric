@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
 
-    tools:context="com.example.fiielectric.masini.pagina_masini_rabla"
+    tools:context=".masini.pagina_masini_rabla"
     tools:ignore="SpeakableTextPresentCheck">
 
     <LinearLayout

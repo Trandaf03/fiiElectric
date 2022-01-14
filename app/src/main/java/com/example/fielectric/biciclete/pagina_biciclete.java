@@ -1,4 +1,4 @@
-package com.example.fiielectric.trotinete;
+package com.example.fielectric.biciclete;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -12,46 +12,49 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
-import com.example.fiielectric.app_related.pagina_contact;
-import com.example.fiielectric.app_related.pagina_despre;
-import com.example.fiielectric.app_related.pagina_principala;
-import com.example.fiielectric.app_related.pagina_setari;
+import com.example.fielectric.app_related.pagina_contact;
+import com.example.fielectric.app_related.pagina_despre;
+import com.example.fielectric.app_related.pagina_principala;
+import com.example.fielectric.app_related.pagina_setari;
 import com.google.android.material.navigation.NavigationView;
 
-public class pagina_trotinete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
+public class pagina_biciclete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pagina_trotinete);
+        setContentView(R.layout.activity_pagina_biciclete);
 
-        Toolbar toolbar = findViewById(R.id.toolbar_trotinete);
+        Toolbar toolbar = findViewById(R.id.toolbar_biciclete);
         setSupportActionBar(toolbar);
 
-        drawer = findViewById(R.id.meniu_trotinete_drawer);
-        NavigationView navigationView = findViewById(R.id.nav_view_trotinete);
+        drawer = findViewById(R.id.meniu_biciclete_drawer);
+        NavigationView navigationView = findViewById(R.id.nav_view_biciclete);
         navigationView.setNavigationItemSelectedListener(this);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
                 R.string.nav_drawer_open, R.string.nav_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+
+
     }
 
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.meniu_contact_trotinete:
+            case R.id.meniu_contact_biciclete:
                 openContact();
                 break;
-            case R.id.meniu_setari_trotinete:
+            case R.id.meniu_setari_biciclete:
                 openSettings();
                 break;
-            case R.id.meniu_despre_trotinete:
+            case R.id.meniu_despre_biciclete:
                 openDespre();
                 break;
-            case R.id.go_to_prima_pagina_trotinete:
+            case R.id.go_to_prima_pagina_biciclete:
                 openMeniuPrincipal();
         }
         return true;
@@ -87,4 +90,6 @@ public class pagina_trotinete extends AppCompatActivity implements NavigationVie
         Intent intent = new Intent(this, pagina_contact.class);
         startActivity(intent);
     }
+
+
 }

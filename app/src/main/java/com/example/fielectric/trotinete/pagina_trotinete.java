@@ -1,4 +1,4 @@
-package com.example.fiielectric.motociclete;
+package com.example.fielectric.trotinete;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -12,26 +12,26 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
-import com.example.fiielectric.app_related.pagina_contact;
-import com.example.fiielectric.app_related.pagina_despre;
-import com.example.fiielectric.app_related.pagina_principala;
-import com.example.fiielectric.app_related.pagina_setari;
+import com.example.fielectric.app_related.pagina_contact;
+import com.example.fielectric.app_related.pagina_despre;
+import com.example.fielectric.app_related.pagina_principala;
+import com.example.fielectric.app_related.pagina_setari;
 import com.google.android.material.navigation.NavigationView;
 
-public class pagina_motociclete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class pagina_trotinete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pagina_motociclete);
+        setContentView(R.layout.activity_pagina_trotinete);
 
-        Toolbar toolbar = findViewById(R.id.toolbar_motociclete);
+        Toolbar toolbar = findViewById(R.id.toolbar_trotinete);
         setSupportActionBar(toolbar);
 
-        drawer = findViewById(R.id.meniu_motociclete_drawer);
-        NavigationView navigationView = findViewById(R.id.nav_view_motociclete);
+        drawer = findViewById(R.id.meniu_trotinete_drawer);
+        NavigationView navigationView = findViewById(R.id.nav_view_trotinete);
         navigationView.setNavigationItemSelectedListener(this);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
@@ -42,16 +42,16 @@ public class pagina_motociclete extends AppCompatActivity implements NavigationV
 
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.meniu_contact_motociclete:
+            case R.id.meniu_contact_trotinete:
                 openContact();
                 break;
-            case R.id.meniu_setari_motociclete:
+            case R.id.meniu_setari_trotinete:
                 openSettings();
                 break;
-            case R.id.meniu_despre_motociclete:
+            case R.id.meniu_despre_trotinete:
                 openDespre();
                 break;
-            case R.id.go_to_prima_pagina_motociclete:
+            case R.id.go_to_prima_pagina_trotinete:
                 openMeniuPrincipal();
         }
         return true;

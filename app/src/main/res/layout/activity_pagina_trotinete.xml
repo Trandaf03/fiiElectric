@@ -5,7 +5,7 @@
     android:id="@+id/meniu_trotinete_drawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.fiielectric.trotinete.pagina_trotinete">
+    tools:context=".trotinete.pagina_trotinete">
 
     <LinearLayout
         android:layout_width="match_parent"
