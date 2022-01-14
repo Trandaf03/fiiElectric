@@ -18,7 +18,7 @@ public class pagina_despre extends AppCompatActivity {
 
     //TODO Update build version very time
     // somehow need to automate this but meh
-    private String versiunePrezent = "Versiune curentă: alpha 0.9.1";
+    private String versiunePrezent = "Versiune curentă: alpha 0.8";
 
 
     @Override
