@@ -1,4 +1,4 @@
-package com.trandaf.fiielectric.masini;
+package com.example.fiielectric.masini;
 
 import androidx.appcompat.app.AppCompatActivity;
 

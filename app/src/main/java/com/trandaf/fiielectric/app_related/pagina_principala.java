@@ -1,4 +1,4 @@
-package com.trandaf.fiielectric.app_related;
+package com.example.fiielectric.app_related;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -14,12 +14,12 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
-import com.trandaf.fiielectric.appUtil.item_adapter;
-import com.trandaf.fiielectric.appUtil.item_stire_data;
-import com.trandaf.fiielectric.biciclete.pagina_biciclete;
-import com.trandaf.fiielectric.masini.pagina_masini;
-import com.trandaf.fiielectric.motociclete.pagina_motociclete;
-import com.trandaf.fiielectric.trotinete.pagina_trotinete;
+import com.example.fiielectric.appUtil.item_adapter;
+import com.example.fiielectric.appUtil.item_stire_data;
+import com.example.fiielectric.biciclete.pagina_biciclete;
+import com.example.fiielectric.masini.pagina_masini;
+import com.example.fiielectric.motociclete.pagina_motociclete;
+import com.example.fiielectric.trotinete.pagina_trotinete;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;

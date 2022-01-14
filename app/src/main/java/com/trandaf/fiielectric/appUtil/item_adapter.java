@@ -1,4 +1,4 @@
-package com.trandaf.fiielectric.appUtil;
+package com.example.fiielectric.appUtil;
 
 import android.content.Context;
 import android.view.LayoutInflater;
