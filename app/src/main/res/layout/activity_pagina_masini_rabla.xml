@@ -37,10 +37,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/firasansextrabolditalic"
             android:text="Mașini electrice disponibile"
             android:textAlignment="center"
-            android:fontFamily="@font/firasansextrabolditalic"
-            android:textSize="20sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             android:translationY="-40dp" />
 
@@ -48,31 +48,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/firasansextrabolditalic"
             android:text="prin programul rabla"
             android:textAlignment="center"
-            android:fontFamily="@font/firasansextrabolditalic"
-            android:textSize="20sp"
+            android:textSize="24sp"
             android:textStyle="bold"
-            android:translationY="-40dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="La prețul afișat scadeți €10.500 (Rabla+)"
-            android:textAlignment="center"
-            android:fontFamily="@font/firasansblack"
-            android:textSize="15sp"
-            android:translationY="-40dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Apăsați pe imagine pentru mai multe detalii"
-            android:textAlignment="center"
-            android:fontFamily="@font/firasansblack"
-            android:textSize="15sp"
             android:translationY="-40dp" />
 
         <!--

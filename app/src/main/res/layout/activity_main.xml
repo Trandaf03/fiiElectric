@@ -7,8 +7,8 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".app_related.pagina_principala"
-    tools:openDrawer="start"
-    tools:ignore="HardcodedText">
+    tools:ignore="HardcodedText"
+    tools:openDrawer="start">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,19 +31,10 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Ultimele știri"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="10dp">
-            </TextView>
-
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_pagina_principala"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/recycler_view_pagina_principala">
+                android:layout_height="wrap_content">
 
 
             </androidx.recyclerview.widget.RecyclerView>
@@ -58,7 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:headerLayout="@layout/meniu_header"
+        app:headerLayout="@layout/header_principal"
         app:menu="@menu/meniu_principal" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -6,21 +6,32 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
+import com.example.fielectric.appUtil.item_adapter;
+import com.example.fielectric.appUtil.item_stire_data;
 import com.example.fielectric.app_related.pagina_contact;
 import com.example.fielectric.app_related.pagina_despre;
 import com.example.fielectric.app_related.pagina_principala;
 import com.example.fielectric.app_related.pagina_setari;
 import com.google.android.material.navigation.NavigationView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class pagina_trotinete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
+
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter adapter;
+    private List<item_stire_data> listData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +49,18 @@ public class pagina_trotinete extends AppCompatActivity implements NavigationVie
                 R.string.nav_drawer_open, R.string.nav_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view_pagina_principala);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        // here goes the news
+        listData = new ArrayList<>();
+        item_stire_data test = new item_stire_data("test", "test", R.drawable.masini_rabla_corsae);
+        listData.add(test);
+
+        adapter = new item_adapter(listData, this);
+        recyclerView.setAdapter(adapter);
     }
 
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {

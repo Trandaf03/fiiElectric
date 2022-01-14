@@ -9,101 +9,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:orientation="vertical">
+
+
+
+
+
+
     ]]>
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="€"
-        android:textAlignment="center"
-        android:fontFamily="@font/firasansblack"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/textView10"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintStart_toStartOf="@+id/guideline4" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="km"
-        android:textAlignment="center"
-        android:fontFamily="@font/firasansblack"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="@+id/textView6" />
-
-    <EditText
-        android:id="@+id/text_masini_scoateBanii_pretMasina"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:minHeight="48dp"
-        android:text="0"
-        app:layout_constraintBottom_toBottomOf="@+id/textView10"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/textView10"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Preț mașină electrică:"
-        android:textAlignment="center"
-        android:fontFamily="@font/firasansblack"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_pretCombustibil" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="lei/l"
-        android:textAlignment="center"
-        android:fontFamily="@font/firasansblack"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/textView8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintStart_toStartOf="@+id/guideline4" />
-
-    <EditText
-        android:id="@+id/text_masini_scoateBanii_pretCombustibil"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:minHeight="48dp"
-        android:text="0"
-        app:layout_constraintBottom_toBottomOf="@+id/textView8"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/textView8"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
-        android:text="Preț combustibil:"
-        android:textAlignment="center"
-        android:fontFamily="@font/firasansblack"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_consumabileMasina" />
 
     <EditText
         android:id="@+id/text_masini_scoateBanii_consumabileMasina"
@@ -113,10 +25,260 @@
         android:inputType="numberDecimal"
         android:minHeight="48dp"
         android:text="0"
-        app:layout_constraintBottom_toBottomOf="@+id/textView5"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_consumMasina"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/text_masini_scoateBanii_pretCombustibil"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_consumabileMasina"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/firasansblack"
+        android:text="lei/l"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_pretCombustibil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/text_masini_scoateBanii_pretCombustibil"
+        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_pretCombustibil" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/firasansblack"
+        android:text="Câți km crezi că mergi \nanual?"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_km_anual"
+        app:layout_constraintEnd_toStartOf="@+id/text_masini_scoateBanii_km_anual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_km_anual" />
+
+    <EditText
+        android:id="@+id/text_masini_scoateBanii_km_anual"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_pretMasina"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/text_masini_scoateBanii_consumMasina"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/buton_masini_scoateBanii_calculeaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/firasansmedium"
+        android:text="Calculează"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_masini_scoateBanii_maiMulte" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/firasansblack"
+        android:text="km"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_km_anual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/text_masini_scoateBanii_km_anual"
+        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_km_anual"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/firasansblack"
+        android:text="l/100km"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_consumMasina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/text_masini_scoateBanii_consumMasina"
+        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_consumMasina" />
+
+    <CheckBox
+        android:id="@+id/checkBox_masini_scoateBanii_tichet_rabla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/firasansmedium"
+        android:minHeight="48dp"
+        android:text="Ai scăzut tichetul rabla?"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_km_anual" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/firasansblack"
+        android:text="Preț combustibil:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_pretCombustibil"
+        app:layout_constraintEnd_toStartOf="@+id/text_masini_scoateBanii_pretCombustibil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_pretCombustibil" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/firasansblack"
+        android:text="Consumabile mașină:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_consumabileMasina"
+        app:layout_constraintEnd_toStartOf="@+id/text_masini_scoateBanii_consumabileMasina"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_consumabileMasina" />
+
+    <EditText
+        android:id="@+id/text_masini_scoateBanii_pretMasina"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_pretCombustibil"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/firasansblack"
+        android:text="Consumul mașinii tale:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_consumMasina"
+        app:layout_constraintEnd_toStartOf="@+id/text_masini_scoateBanii_consumMasina"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_consumMasina" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/firasansblack"
+        android:text="Preț mașină electrică:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_pretMasina"
+        app:layout_constraintEnd_toStartOf="@+id/text_masini_scoateBanii_pretMasina"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_pretMasina" />
+
+    <CheckBox
+        android:id="@+id/checkBox_masini_scoateBanii_maiMulte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/firasansmedium"
+        android:minHeight="48dp"
+        android:text="Vezi calcul extins"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_masini_scoateBanii_tichet_rabla" />
+
+    <ImageButton
+        android:id="@+id/buton_masini_InfoConsumabile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_consumabileMasina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/text_masini_scoateBanii_consumabileMasina"
+        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_consumabileMasina"
+        app:srcCompat="@drawable/ic_baseline_info_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/firasansblack"
+        android:text="Introdu datele de mai jos despre mașina ta \ncu motor prin ardere internă pentru a afla\n Dacă nu ai una, pune 0."
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/firasansblack"
+        android:text="€"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_pretMasina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/text_masini_scoateBanii_pretMasina"
+        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_pretMasina" />
 
     <TextView
         android:id="@+id/textView"
@@ -130,162 +292,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Introdu datele de mai jos despre mașina ta \ncu motor prin ardere internă pentru a afla\n Dacă nu ai una, pune 0."
-        android:textAlignment="center"
-        android:fontFamily="@font/firasansblack"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Consumul mașinii tale:"
-        android:textAlignment="center"
-        android:fontFamily="@font/firasansblack"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <EditText
-        android:id="@+id/text_masini_scoateBanii_consumMasina"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:minHeight="48dp"
-        android:text="0"
-        app:layout_constraintBottom_toBottomOf="@+id/textView3"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/textView3"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="l/100km"
-        android:textAlignment="center"
-        android:fontFamily="@font/firasansblack"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintStart_toStartOf="@+id/guideline4" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Consumabile mașină:"
-        android:textAlignment="center"
-        android:fontFamily="@font/firasansblack"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="190dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="297dp" />
-
-    <ImageButton
-        android:id="@+id/buton_masini_InfoConsumabile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        app:layout_constraintBottom_toBottomOf="@+id/text_masini_scoateBanii_consumabileMasina"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="@+id/text_masini_scoateBanii_consumabileMasina"
-        app:srcCompat="@drawable/ic_baseline_info_24"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox_masini_scoateBanii_tichet_rabla"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:minHeight="48dp"
-        android:text="Ai scăzut tichetul rabla?"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:fontFamily="@font/firasansmedium"
-        android:textSize="15sp"
-        app:layout_constraintHorizontal_bias="0.473"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_km_anual" />
-
-    <Button
-        android:id="@+id/buton_masini_scoateBanii_calculeaza"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Calculează"
-        android:fontFamily="@font/firasansmedium"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox_masini_scoateBanii_maiMulte" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Câți km crezi că mergi \nanual?"
-        android:textAlignment="center"
-        android:fontFamily="@font/firasansblack"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_pretMasina" />
-
-    <EditText
-        android:id="@+id/text_masini_scoateBanii_km_anual"
-        android:layout_width="100dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:text="0"
-        app:layout_constraintBottom_toBottomOf="@+id/textView6"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox_masini_scoateBanii_maiMulte"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:text="Vezi calcul extins"
-        android:fontFamily="@font/firasansmedium"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="@+id/checkBox_masini_scoateBanii_tichet_rabla"
-        app:layout_constraintStart_toStartOf="@+id/checkBox_masini_scoateBanii_tichet_rabla"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox_masini_scoateBanii_tichet_rabla" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

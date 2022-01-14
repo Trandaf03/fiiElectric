@@ -19,6 +19,7 @@ import com.example.fielectric.R;
 
 import org.w3c.dom.Text;
 
+//TODO scrie ce ai facut in update
 public class pagina_updates extends AppCompatActivity {
 
     private TextView text;
@@ -31,17 +32,18 @@ public class pagina_updates extends AppCompatActivity {
         text = (TextView) findViewById(R.id.text_update_uri);
 
 
-        String updateTitle1 = "<b>✦Versiune Alpha 0.1: </b>";
-        String updateTitle2 = "<b>✦Versiune Alpha 0.2: </b>";
-        String updateTitle3 = "<b>✦Versiune Alpha 0.3: </b>";
-        String updateTitle4 = "<b>✦Versiune Alpha 0.4: </b>";
-        String updateTitle5 = "<b>✦Versiune Alpha 0.5: </b>";
-        String updateTitle6 = "<b>✦Versiune Alpha 0.6: </b>";
-        String updateTitle7 = "<b>✦Versiune Alpha 0.7: </b>";
-        String updateTitle8 = "<b>✦Versiune Alpha 0.8: </b>";
-        String updateTitle9 = "<b>✦Versiune Alpha 0.9.1: </b>";
+        String updateTitle1 = "<h1>✦Versiune Alpha 0.1: </b>";
+        String updateTitle2 = "<h1>✦Versiune Alpha 0.2: </b>";
+        String updateTitle3 = "<h1>✦Versiune Alpha 0.3: </b>";
+        String updateTitle4 = "<h1>✦Versiune Alpha 0.4: </b>";
+        String updateTitle5 = "<h1>✦Versiune Alpha 0.5: </b>";
+        String updateTitle6 = "<h1>✦Versiune Alpha 0.6: </b>";
+        String updateTitle7 = "<h1>✦Versiune Alpha 0.7: </b>";
+        String updateTitle8 = "<h1>✦Versiune Alpha 0.8: </b>";
+        String updateTitle9 = "<h1>✦Versiune Alpha 0.9: </b>";
+        String updateTitle10 = "<h1>✦Versiune Beta 1.0: </b>";
 
-        String totalWorkTime = "<b>✦Total work time: 58 h</b>";
+        String totalWorkTime = "<p>✦Total work time: 60 h</b>";
 
         String updateText1 = "<p>⋆Creare aplicație" +
                 "<br>⋆Creare interfață meniu principal" +
@@ -80,9 +82,15 @@ public class pagina_updates extends AppCompatActivity {
                 "<br>⋆Rezolvare mici bug-uri" +
                 "<br>⋆Modificare stil cod de baza" +
                 "</p>";
+        String updateText10 = "<p>⋆Ultime finisaje pentru aplicație" +
+                "<br>⋆Modificare iconiță aplicație" +
+                "<br>⋆Modificare headers pagini" +
+                "<br>⋆Rezolvare mici buguri" +
+                "</p>";
 
 
-        Spanned textPentruAfisat = Html.fromHtml(updateTitle9 + updateText9 +
+        Spanned textPentruAfisat = Html.fromHtml(updateTitle10 + updateText10 +
+                updateTitle9 + updateText9 +
                 updateTitle8 + updateText8 +
                 updateTitle7 + updateText7 +
                 updateTitle6 + updateText6 +
