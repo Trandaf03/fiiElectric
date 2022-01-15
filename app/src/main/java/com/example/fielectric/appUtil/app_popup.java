@@ -27,6 +27,7 @@ public class app_popup extends AppCompatDialogFragment {
 
                     }
                 });
+
         return builder.create();
     }
 
