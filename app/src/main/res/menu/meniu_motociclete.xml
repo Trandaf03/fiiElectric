@@ -15,6 +15,11 @@
                 android:icon="@drawable/ic_baseline_home_24"
                 android:title="Prima pagină">
             </item>
+            <item
+                android:id="@+id/pagina_motociclete_rabla"
+                android:icon="@drawable/ic_baseline_electric_moped_24"
+                android:title="Rabla moto">
+            </item>
         </menu>
     </item>
 

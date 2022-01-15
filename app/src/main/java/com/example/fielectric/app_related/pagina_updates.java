@@ -42,8 +42,9 @@ public class pagina_updates extends AppCompatActivity {
         String updateTitle8 = "<h1>✦Versiune Alpha 0.8: </b>";
         String updateTitle9 = "<h1>✦Versiune Alpha 0.9: </b>";
         String updateTitle10 = "<h1>✦Versiune Beta 1.0: </b>";
+        String updateTitle11 = "<h1>✦Versiune Beta 1.1: </b>";
 
-        String totalWorkTime = "<p>✦Total work time: 60 h</b>";
+        String totalWorkTime = "<p>✦Total work time: 66 h</b>";
 
         String updateText1 = "<p>⋆Creare aplicație" +
                 "<br>⋆Creare interfață meniu principal" +
@@ -87,9 +88,14 @@ public class pagina_updates extends AppCompatActivity {
                 "<br>⋆Modificare headers pagini" +
                 "<br>⋆Rezolvare mici buguri" +
                 "</p>";
+        String updateText11 = "<p>⋆Adaugare pagină motociclete rabla WIP" +
+                "<br>⋆Motociclete WIP" +
+                "<br>⋆Sistem afisare nou" +
+                "<br>⋆Rezolvare mici buguri" +
+                "</p>";
 
-
-        Spanned textPentruAfisat = Html.fromHtml(updateTitle10 + updateText10 +
+        Spanned textPentruAfisat = Html.fromHtml(updateTitle11 + updateText11 +
+                updateTitle10 + updateText10 +
                 updateTitle9 + updateText9 +
                 updateTitle8 + updateText8 +
                 updateTitle7 + updateText7 +

@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import com.example.fielectric.R;
 
-public class item_stire extends AppCompatActivity {
+public class news_item_stire extends AppCompatActivity {
 
     public ImageView imagine;
     public TextView titlu_stire;

@@ -14,8 +14,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
-import com.example.fielectric.appUtil.item_adapter;
-import com.example.fielectric.appUtil.item_stire_data;
+import com.example.fielectric.appUtil.news_item_stire_data;
 import com.example.fielectric.app_related.pagina_contact;
 import com.example.fielectric.app_related.pagina_despre;
 import com.example.fielectric.app_related.pagina_principala;
@@ -32,7 +31,7 @@ public class pagina_biciclete extends AppCompatActivity implements NavigationVie
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
-    private List<item_stire_data> listData;
+    private List<news_item_stire_data> listData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +56,7 @@ public class pagina_biciclete extends AppCompatActivity implements NavigationVie
 
         // here goes the news
         listData = new ArrayList<>();
-        item_stire_data test = new item_stire_data("test", "test", R.drawable.masini_rabla_corsae);
+        news_item_stire_data test = new news_item_stire_data("test", "test", R.drawable.masini_rabla_corsae);
 
         listData.add(test);
         recyclerView.setAdapter(adapter);

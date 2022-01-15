@@ -1,14 +1,12 @@
 package com.example.fielectric.appUtil;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -16,11 +14,12 @@ import com.example.fielectric.R;
 
 import java.util.List;
 
-public class item_adapter extends RecyclerView.Adapter<item_adapter.ViewHolder> {
-    private List<item_stire_data> listItems;
+public class news_item_adapter extends RecyclerView.Adapter<news_item_adapter.ViewHolder> {
+
+    private List<news_item_stire_data> listItems;
     private Context context;
 
-    public item_adapter(List<item_stire_data> listItems, Context context) {
+    public news_item_adapter(List<news_item_stire_data> listItems, Context context) {
         this.listItems = listItems;
         this.context = context;
     }
@@ -34,7 +33,7 @@ public class item_adapter extends RecyclerView.Adapter<item_adapter.ViewHolder> 
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        item_stire_data listItem = listItems.get(position);
+        news_item_stire_data listItem = listItems.get(position);
 
         holder.titlu.setText(listItem.getTitle());
         holder.descriere.setText(listItem.getDesc());
@@ -45,9 +44,6 @@ public class item_adapter extends RecyclerView.Adapter<item_adapter.ViewHolder> 
     public int getItemCount() {
         return listItems.size();
     }
-
-
-
 
 
     public class ViewHolder extends RecyclerView.ViewHolder {

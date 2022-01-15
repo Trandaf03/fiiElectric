@@ -10,13 +10,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
-import com.example.fielectric.appUtil.item_adapter;
-import com.example.fielectric.appUtil.item_stire_data;
+import com.example.fielectric.appUtil.news_item_adapter;
+import com.example.fielectric.appUtil.news_item_stire_data;
 import com.example.fielectric.biciclete.pagina_biciclete;
 import com.example.fielectric.masini.pagina_masini;
 import com.example.fielectric.motociclete.pagina_motociclete;
@@ -32,12 +31,12 @@ public class pagina_principala extends AppCompatActivity implements NavigationVi
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
-    private List<item_stire_data> listData;
+    private List<news_item_stire_data> listData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pagina_principala);
 
         Toolbar toolbar = findViewById(R.id.toolbar_principal);
         setSupportActionBar(toolbar);
@@ -57,16 +56,16 @@ public class pagina_principala extends AppCompatActivity implements NavigationVi
 
         // here goes the news
         listData = new ArrayList<>();
-        item_stire_data test = new item_stire_data("test", "test", R.drawable.masini_rabla_corsae);
+        news_item_stire_data test = new news_item_stire_data("test", "test", R.drawable.masini_rabla_corsae);
         listData.add(test);
 
-        item_stire_data test2 = new item_stire_data("Noua Dacia Spring","BlaBlaBlahjsdhfsdjffhsdjfhdjfsdhfjsd" +
+        news_item_stire_data test2 = new news_item_stire_data("Noua Dacia Spring", "BlaBlaBlahjsdhfsdjffhsdjfhdjfsdhfjsd" +
                 "jfdkfjdkfjdkfhjdfkdjfkdjfkdfjdkfjdkfjdfkl;sdjgsiorhjgsruio[trhweirwejrfipwerjfgwer" +
                 "df[lskdfgikopsrjtiopw4erj4w3o-irjkwe4pirfhjferwiourtjhweriprjwerijweiropjweriopwejr" +
-                "rokgferijfweriojrtwerirftjerifjerifjeriproiftjerwiprjweirjweirejrierjejireirejrie",R.drawable.masini_rabla_spring);
+                "rokgferijfweriojrtwerirftjerifjerifjeriproiftjerwiprjweirjweirejrierjejireirejrie", R.drawable.masini_rabla_spring);
         listData.add(test2);
 
-        adapter = new item_adapter(listData, this);
+        adapter = new news_item_adapter(listData, this);
         recyclerView.setAdapter(adapter);
     }
 

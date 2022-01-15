@@ -14,8 +14,8 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
-import com.example.fielectric.appUtil.item_adapter;
-import com.example.fielectric.appUtil.item_stire_data;
+import com.example.fielectric.appUtil.news_item_adapter;
+import com.example.fielectric.appUtil.news_item_stire_data;
 import com.example.fielectric.app_related.pagina_contact;
 import com.example.fielectric.app_related.pagina_despre;
 import com.example.fielectric.app_related.pagina_principala;
@@ -31,7 +31,7 @@ public class pagina_motociclete extends AppCompatActivity implements NavigationV
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
-    private List<item_stire_data> listData;
+    private List<news_item_stire_data> listData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,11 +56,11 @@ public class pagina_motociclete extends AppCompatActivity implements NavigationV
 
         // here goes the news
         listData = new ArrayList<>();
-        item_stire_data test = new item_stire_data("test", "test", R.drawable.masini_rabla_corsae);
+        news_item_stire_data test = new news_item_stire_data("test", "test", R.drawable.masini_rabla_corsae);
         listData.add(test);
 
 
-        adapter = new item_adapter(listData, this);
+        adapter = new news_item_adapter(listData, this);
         recyclerView.setAdapter(adapter);
     }
 
@@ -77,6 +77,10 @@ public class pagina_motociclete extends AppCompatActivity implements NavigationV
                 break;
             case R.id.go_to_prima_pagina_motociclete:
                 openMeniuPrincipal();
+                break;
+            case R.id.pagina_motociclete_rabla:
+                openRablaMoto();
+                break;
         }
         return true;
     }
@@ -109,6 +113,11 @@ public class pagina_motociclete extends AppCompatActivity implements NavigationV
 
     private void openContact() {
         Intent intent = new Intent(this, pagina_contact.class);
+        startActivity(intent);
+    }
+
+    private void openRablaMoto() {
+        Intent intent = new Intent(this, pagina_motociclete_rabla.class);
         startActivity(intent);
     }
 }

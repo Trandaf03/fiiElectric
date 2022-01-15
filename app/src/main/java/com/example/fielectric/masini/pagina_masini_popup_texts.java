@@ -69,7 +69,7 @@ public class pagina_masini_popup_texts {
             "<b>⋆Autonomie reală:</b><br> 210km <br>" +
             "<b>⋆Baterie:</b><br> 27.4kWh <br>" +
             "<b>⋆Viteza maximă:</b><br> 125km/h <br>" +
-            "<b>⋆Încarcare acasă:</b><br> 14 re<br>" +
+            "<b>⋆Încarcare acasă:</b><br> 14ore<br>" +
             "<b>⋆Încarcare rapidă:</b><br> 60min (0 - 80%)  <br>" +
             "<b>⋆Preț:</b><br> €18.300 (fără alte dotări)";
 
@@ -87,7 +87,7 @@ public class pagina_masini_popup_texts {
             "<b>⋆Autonomie reală:</b><br> 205km <br>" +
             "<b>⋆Baterie:</b><br> 32.3kWh <br>" +
             "<b>⋆Viteza maximă:</b><br> 130km/h <br>" +
-            "<b>⋆Încarcare acasă:</b><br> 17 re<br>" +
+            "<b>⋆Încarcare acasă:</b><br> 17pre<br>" +
             "<b>⋆Încarcare rapidă:</b><br> 50min (0 - 80%)  <br>" +
             "<b>⋆Preț:</b><br> €21.421 (fără alte dotări)";
 
