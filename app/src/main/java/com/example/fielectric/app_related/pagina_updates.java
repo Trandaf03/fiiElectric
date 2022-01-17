@@ -95,6 +95,7 @@ public class pagina_updates extends AppCompatActivity {
                 "<br>⋆Rezolvare mici buguri" +
                 "</p>";
         String updateText12 = "<p>⋆Testare adăugare buton sortare" +
+                "<br>⋆Modificare afisare informatii tichete rabla" +
                 "</p>";
 
         Spanned textPentruAfisat = Html.fromHtml(updateTitle12 + updateText12 +
