@@ -9,4 +9,14 @@
         <item>reply</item>
         <item>reply_all</item>
     </string-array>
+
+    <string-array name="nume_sortare">
+        <item>Sortare după</item>
+        <item>Nume crescător</item>
+        <item>Nume descrescător</item>
+        <item>Autonomie crescător</item>
+        <item>Autonomie descrescător</item>
+        <item>Baterie crescător</item>
+        <item>Baterie descrescător</item>
+    </string-array>
 </resources>

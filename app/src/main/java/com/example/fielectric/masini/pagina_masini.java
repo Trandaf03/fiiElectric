@@ -90,6 +90,15 @@ public class pagina_masini extends AppCompatActivity implements NavigationView.O
             case R.id.meniu_despre_masini:
                 openDespre();
                 break;
+
+            case R.id.meniu_program_rabla_clasic:
+                afiseazaClasic();
+                break;
+            case R.id.meniu_program_rabla_plus:
+                afiseazaPlus();
+                break;
+            default:
+                break;
         }
         return true;
     }
@@ -144,5 +153,21 @@ public class pagina_masini extends AppCompatActivity implements NavigationView.O
         Intent intent = new Intent(this, pagina_contact.class);
         startActivity(intent);
 
+    }
+
+    private void afiseazaClasic() {
+        pagina_masini_popup_texts text = new pagina_masini_popup_texts();
+        pagina_masini_popup popup = new pagina_masini_popup();
+        popup.setTextAfisare(text.dialog_rabla_clasic_text);
+        popup.setTextTitlu(text.dialog_rabla_clasic_title);
+        popup.show(getSupportFragmentManager(), "exemplu");
+    }
+
+    private void afiseazaPlus() {
+        pagina_masini_popup_texts text = new pagina_masini_popup_texts();
+        pagina_masini_popup popup = new pagina_masini_popup();
+        popup.setTextAfisare(text.dialog_rabla_plus_text);
+        popup.setTextTitlu(text.dialog_rabla_plus_title);
+        popup.show(getSupportFragmentManager(), "exemplu");
     }
 }

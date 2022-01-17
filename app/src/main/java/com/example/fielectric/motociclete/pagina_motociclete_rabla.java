@@ -5,6 +5,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.example.fielectric.R;
 import com.example.fielectric.appUtil.object_presenting_adapter;
@@ -12,17 +17,19 @@ import com.example.fielectric.appUtil.object_presenting_item_data;
 import com.example.fielectric.informatii.motociclete;
 import com.example.fielectric.informatii.motociclete_info;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class pagina_motociclete_rabla extends AppCompatActivity {
+public class pagina_motociclete_rabla extends AppCompatActivity{
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
     private List<object_presenting_item_data> listData;
     private motociclete_info motocicleteInfo;
+
 
     private motociclete ZeroSRF = new motociclete("Zero SR/F", "14,4 kWh", "4h", "175KM", "82 kW", "€23.636", R.drawable.motociclete_zerosrf);
     private motociclete ZeroSRS = new motociclete("Zero SR/S", "14,4 kWh", "4h", "175KM", "81 kW", "€24.792", R.drawable.motociclete_zerosrs);
@@ -81,16 +88,13 @@ public class pagina_motociclete_rabla extends AppCompatActivity {
 
 
 
-        /*Collections.sort(listData, new Comparator<object_presenting_item_data>(){
-            public int compare(object_presenting_item_data o1,object_presenting_item_data o2)
-            {
-                //return  (o1.getPret() < o2.getPret()) ? o1.getPret() : o2.getPret();
-                return o1.getTitle().compareTo(o2.getTitle());
-            }
-        });*/
-
         adapter = new object_presenting_adapter(listData, this);
         recyclerView.setAdapter(adapter);
+
+
+
+
+
     }
 
     public String getName(motociclete moto) {
@@ -108,4 +112,7 @@ public class pagina_motociclete_rabla extends AppCompatActivity {
                 "<b>⋆Pret:</b><br> " + moto.pret + " <br>\n" +
                 "<b>⋆Încarcare:</b><br>" + moto.durataIncarcare + "<br>\n";
     }
+
+
+
 }

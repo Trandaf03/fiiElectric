@@ -14,8 +14,7 @@ import com.example.fielectric.R;
 
 public class pagina_masini_rabla extends AppCompatActivity {
 
-    private Button rablaPlus;
-    private Button rablaClasic;
+
     private ImageButton teslamodelS;
     private ImageButton teslamodel3;
     private ImageButton teslamodelX;
@@ -47,8 +46,6 @@ public class pagina_masini_rabla extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina_masini_rabla);
 
-        rablaPlus = (Button) findViewById(R.id.buton_masini_rabla_rabla_plus);
-        rablaClasic = (Button) findViewById(R.id.buton_masini_rabla_rabla_clasic);
         teslamodelS = (ImageButton) findViewById(R.id.teslamodels);
         teslamodel3 = (ImageButton) findViewById(R.id.teslamodel3);
         teslamodelX = (ImageButton) findViewById(R.id.teslamodelx);
@@ -72,26 +69,6 @@ public class pagina_masini_rabla extends AppCompatActivity {
         smart = (ImageButton) findViewById(R.id.smart);
         hondae = (ImageButton) findViewById(R.id.hondae);
         fiat = (ImageButton) findViewById(R.id.fiat500);
-
-
-        rablaPlus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                pagina_masini_popup dialog = new pagina_masini_popup();
-                dialog.setTextTitlu(informatii.dialog_rabla_plus_title);
-                dialog.setTextAfisare(informatii.dialog_rabla_plus_text);
-                dialog.show(getSupportFragmentManager(), "exemplu");
-            }
-        });
-        rablaClasic.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                pagina_masini_popup dialog = new pagina_masini_popup();
-                dialog.setTextTitlu(informatii.dialog_rabla_clasic_title);
-                dialog.setTextAfisare(informatii.dialog_rabla_clasic_text);
-                dialog.show(getSupportFragmentManager(), "exemplu");
-            }
-        });
 
         teslamodelS.setOnClickListener(new View.OnClickListener() {
             @Override

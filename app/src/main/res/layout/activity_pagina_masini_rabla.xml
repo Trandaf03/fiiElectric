@@ -14,23 +14,6 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/buton_masini_rabla_rabla_clasic"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Rabla Clasic"
-            android:translationX="85dp" />
-
-        <Button
-            android:id="@+id/buton_masini_rabla_rabla_plus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Rabla Plus"
-            android:translationX="-95dp"
-            android:translationY="-48dp" />
-
 
         <!--titlu-->
         <TextView
@@ -41,8 +24,7 @@
             android:text="Mașini electrice disponibile"
             android:textAlignment="center"
             android:textSize="24sp"
-            android:textStyle="bold"
-            android:translationY="-40dp" />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
@@ -52,8 +34,7 @@
             android:text="prin programul rabla"
             android:textAlignment="center"
             android:textSize="24sp"
-            android:textStyle="bold"
-            android:translationY="-40dp" />
+            android:textStyle="bold" />
 
         <!--
          MASINI DE AICI
@@ -64,65 +45,63 @@
         -->
 
 
-
-
         <!--MODEL S-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Tesla Model S"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Tesla Model S"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/teslamodels"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/masini_rabla_models"
-            tools:ignore="SpeakableTextPresentCheck"
+            android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            app:srcCompat="@drawable/masini_rabla_models"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <!--MODEL3-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="✦Tesla Model 3"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Tesla Model 3"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/teslamodel3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
             android:contentDescription="model3"
-            android:src="@drawable/masini_rabla_model3"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_model3" />
 
 
         <!--MODELX-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="✦Tesla Model X"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Tesla Model X"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/teslamodelx"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/masini_rabla_modelx"
-            tools:ignore="SpeakableTextPresentCheck"
+            android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            app:srcCompat="@drawable/masini_rabla_modelx"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <!--MODELY-->
 
@@ -130,398 +109,398 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Tesla Model Y"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Tesla Model Y"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/teslamodely"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="modely"
-            android:src="@drawable/masini_rabla_modely"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_modely" />
 
         <!--SPRING-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="✦Dacia Spring"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/daciaspring"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="spring"
-            android:src="@drawable/masini_rabla_spring"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_spring" />
 
 
         <!--E-GOLF-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Volkswagen eGolf"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Volkswagen eGolf"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/egolf"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="egolf"
-            android:src="@drawable/masini_rabla_egolf"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_egolf" />
 
 
         <!--eUP-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Volkswagen eUp"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Volkswagen eUp"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/eup"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="eup"
-            android:src="@drawable/masini_rabla_eup"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_eup" />
 
 
         <!--ID3-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Volkswagen ID3"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Volkswagen ID3"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/id3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/masini_rabla_id3"
+            android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_id3" />
 
 
         <!--ID4-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Volkswagen ID4"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Volkswagen ID4"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/id4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="id4"
-            android:src="@drawable/masini_rabla_id4"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_id4" />
 
 
         <!--E208-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Peugeot e-208"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Peugeot e-208"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/e208"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="e208"
-            android:src="@drawable/masini_rabla_e208"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_e208" />
 
 
         <!--E2008-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Peugeot e-2008"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Peugeot e-2008"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/e2008"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="e2008"
-            android:src="@drawable/masini_rabla_e2008"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_e2008" />
 
 
         <!--BMW i3-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦BMW i3"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦BMW i3"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/i3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="id4"
-            android:src="@drawable/masini_rabla_i3"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_i3" />
 
 
         <!--ZOE-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Renault ZOE"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Renault ZOE"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/zoe"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="id4"
-            android:src="@drawable/masini_rabla_zoe"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_zoe" />
 
 
         <!--KONA-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Hyundai Kona EV"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Hyundai Kona EV"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/kona"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="kona"
-            android:src="@drawable/masini_rabla_kona"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_kona" />
 
 
         <!--IONIQ-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Hyundai IONIQ"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Hyundai IONIQ"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/ioniq"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="ioniq"
-            android:src="@drawable/masini_rabla_ioniq"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_ioniq" />
 
 
         <!--MINI-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Mini Cooper EV"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Mini Cooper EV"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/mini"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="mini"
-            android:src="@drawable/masini_rabla_mini"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_mini" />
 
 
         <!--MX30-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Mazda MX-30"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Mazda MX-30"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/mx30"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="mx30"
-            android:src="@drawable/masini_rabla_mx30"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_mx30" />
 
 
         <!--LEAF-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Nissan Leaf"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Nissan Leaf"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/leaf"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="leaf"
-            android:src="@drawable/masini_rabla_leaf"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_leaf" />
 
 
         <!--CORSAe-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Opel Corsa-e"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Opel Corsa-e"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/corsae"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="corsae"
-            android:src="@drawable/masini_rabla_corsae"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_corsae" />
 
 
         <!--MOKKAe-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Opel Mokka-e"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Opel Mokka-e"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/mokkae"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="mokka"
-            android:src="@drawable/masini_rabla_mokka"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_mokka" />
 
 
         <!--smart-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Smart EQ forfour"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Smart EQ forfour"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/smart"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="smart"
-            android:src="@drawable/masini_rabla_smartforfor"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_smartforfor" />
 
 
         <!--hondae-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Honda e"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Honda e"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/hondae"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="hondae"
-            android:src="@drawable/masini_rabla_hondae"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_hondae" />
 
 
         <!--FIAT500-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="✦Fiat500 electric"
             android:fontFamily="@font/firasansextrabolditalic"
+            android:text="✦Fiat500 electric"
+            android:textAlignment="center"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
         <ImageButton
             android:id="@+id/fiat500"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:contentDescription="fiat500"
-            android:src="@drawable/masini_rabla_fiat500"
             android:scaleType="fitCenter"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/masini_rabla_fiat500" />
     </LinearLayout>
 </ScrollView>
 

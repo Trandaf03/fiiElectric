@@ -64,7 +64,7 @@ public class object_presenting_adapter extends RecyclerView.Adapter<object_prese
                 text.setText(Html.fromHtml(listItem.getText()));
 
                 AlertDialog.Builder alertbox = new AlertDialog.Builder(v.getRootView().getContext());
-                alertbox.setMessage(listItem.getTitle());
+                //alertbox.setMessage(listItem.getTitle());
                 alertbox.setView(layout);
                 alertbox.setNeutralButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface arg0, int arg1) {

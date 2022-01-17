@@ -26,6 +26,7 @@
         android:minHeight="48dp"
         android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_consumMasina"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -39,6 +40,7 @@
         android:minHeight="48dp"
         android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_consumabileMasina"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -80,6 +82,7 @@
         android:inputType="numberDecimal"
         android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_pretMasina"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -94,6 +97,7 @@
         android:minHeight="48dp"
         android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -191,6 +195,7 @@
         android:minHeight="48dp"
         android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_masini_scoateBanii_pretCombustibil"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -284,9 +289,9 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/firasansextrabolditalic"
         android:text="În cât timp îmi recuperez banii \nde pe mașina electrică?"
         android:textAlignment="center"
-        android:fontFamily="@font/firasansextrabolditalic"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
