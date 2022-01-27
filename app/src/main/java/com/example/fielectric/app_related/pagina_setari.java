@@ -6,11 +6,14 @@ import android.os.Bundle;
 
 import com.example.fielectric.R;
 
-public class pagina_setari extends AppCompatActivity {
+public class pagina_setari extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina_setari);
+
+
     }
+
 }

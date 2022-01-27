@@ -13,6 +13,9 @@ public class object_presenting_item_data {
         this.imagine = imagine;
 
     }
+    public object_presenting_item_data(){
+
+    }
 
 
     public String getTitle() {

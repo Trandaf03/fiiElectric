@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".motociclete.pagina_motociclete_rabla">
+    tools:context=".masini.pagina_masini_rabla_v2">
 
     <LinearLayout
-        android:id="@+id/firstlinearlayout_moto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -18,12 +17,12 @@
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
-            android:id="@+id/ignore4"
+            android:id="@+id/ignore1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/firasansextrabolditalic"
-            android:text="Motociclete electrice disponibile"
+            android:text="Mașini electrice disponibile"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -32,7 +31,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/ignore3"
+            android:id="@+id/ignore2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -42,14 +41,24 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
+        <Spinner
+            android:id="@+id/sortare_masini"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+        </Spinner>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_view_pagina_moto_rabla"
+            android:id="@+id/recycler_view_pagina_masini_rabla"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout"
             tools:layout_editor_absoluteX="16dp">
 
         </androidx.recyclerview.widget.RecyclerView>
+
     </LinearLayout>
+
+
 </ScrollView>

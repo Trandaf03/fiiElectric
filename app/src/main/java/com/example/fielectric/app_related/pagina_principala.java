@@ -59,10 +59,7 @@ public class pagina_principala extends AppCompatActivity implements NavigationVi
         news_item_stire_data test = new news_item_stire_data("test", "test", R.drawable.masini_rabla_corsae);
         listData.add(test);
 
-        news_item_stire_data test2 = new news_item_stire_data("Noua Dacia Spring", "BlaBlaBlahjsdhfsdjffhsdjfhdjfsdhfjsd" +
-                "jfdkfjdkfjdkfhjdfkdjfkdjfkdfjdkfjdkfjdfkl;sdjgsiorhjgsruio[trhweirwejrfipwerjfgwer" +
-                "df[lskdfgikopsrjtiopw4erj4w3o-irjkwe4pirfhjferwiourtjhweriprjwerijweiropjweriopwejr" +
-                "rokgferijfweriojrtwerirftjerifjerifjeriproiftjerwiprjweirjweirejrierjejireirejrie", R.drawable.masini_rabla_spring);
+        news_item_stire_data test2 = new news_item_stire_data("Noua Dacia Spring", "merge :)", R.drawable.masini_rabla_spring);
         listData.add(test2);
 
         adapter = new news_item_adapter(listData, this);

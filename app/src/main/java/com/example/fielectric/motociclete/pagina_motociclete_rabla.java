@@ -5,31 +5,20 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-import android.widget.Toast;
 
 import com.example.fielectric.R;
 import com.example.fielectric.appUtil.object_presenting_adapter;
 import com.example.fielectric.appUtil.object_presenting_item_data;
 import com.example.fielectric.informatii.motociclete;
-import com.example.fielectric.informatii.motociclete_info;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
-public class pagina_motociclete_rabla extends AppCompatActivity{
+public class pagina_motociclete_rabla extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
     private List<object_presenting_item_data> listData;
-    private motociclete_info motocicleteInfo;
-
 
     private motociclete ZeroSRF = new motociclete("Zero SR/F", "14,4 kWh", "4h", "175KM", "82 kW", "€23.636", R.drawable.motociclete_zerosrf);
     private motociclete ZeroSRS = new motociclete("Zero SR/S", "14,4 kWh", "4h", "175KM", "81 kW", "€24.792", R.drawable.motociclete_zerosrs);
@@ -41,11 +30,9 @@ public class pagina_motociclete_rabla extends AppCompatActivity{
     private motociclete HorwinCR6 = new motociclete("Horwin CR6", "3.96 kWh", "3h", "120KM", "7.2 kW", "€6.390", R.drawable.motociclete_horwincr6);
     private motociclete SuperSocoTCmax = new motociclete("Super Soco TCmax", "3.24 kWh", "3h", "100KM", "5 kW", "€4.890", R.drawable.motociclete_supertcmax);
 
-
     private motociclete HorwinEK32baterii = new motociclete("Horwin EK3 (două baterii)", "5.76 kW", "5h", "200KM", "7,2 kW", "€5.990", R.drawable.motociclete_horwinscuter);
     private motociclete HorwinEK3 = new motociclete("Horwin EK3", "2.88 kWh", "4h", "100KM", "5.76 kW", "€4.890", R.drawable.motociclete_horwinscuter);
     private motociclete SuperSocoCPx = new motociclete("Super Soco CPx", "2.7 kWh", "4h", "140KM", "5 kW", "€4.990", R.drawable.motociclete_supersococpx);
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,14 +73,8 @@ public class pagina_motociclete_rabla extends AppCompatActivity{
 
 
 
-
-
         adapter = new object_presenting_adapter(listData, this);
-        recyclerView.setAdapter(adapter);
-
-
-
-
+         recyclerView.setAdapter(adapter);
 
     }
 
@@ -112,7 +93,6 @@ public class pagina_motociclete_rabla extends AppCompatActivity{
                 "<b>⋆Pret:</b><br> " + moto.pret + " <br>\n" +
                 "<b>⋆Încarcare:</b><br>" + moto.durataIncarcare + "<br>\n";
     }
-
 
 
 }

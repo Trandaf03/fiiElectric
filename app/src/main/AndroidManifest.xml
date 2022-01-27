@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FiElectric">
         <activity
+            android:name=".masini.pagina_masini_rabla_v2"
+            android:exported="false" />
+        <activity
             android:name=".motociclete.pagina_motociclete_rabla"
             android:exported="false" />
         <activity

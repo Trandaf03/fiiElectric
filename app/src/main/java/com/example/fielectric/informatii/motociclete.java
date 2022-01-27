@@ -19,4 +19,5 @@ public class motociclete {
         this.putere = putere;
         this.imagine = imagine;
     }
+
 }

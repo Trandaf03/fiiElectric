@@ -10,13 +10,14 @@
         <item>reply_all</item>
     </string-array>
 
-    <string-array name="nume_sortare">
+    <string-array name="sortare_masini">
         <item>Sortare după</item>
+        <item>Random</item>
         <item>Nume crescător</item>
         <item>Nume descrescător</item>
         <item>Autonomie crescător</item>
         <item>Autonomie descrescător</item>
-        <item>Baterie crescător</item>
-        <item>Baterie descrescător</item>
+        <item>Preț crescător</item>
+        <item>Preț descrescător</item>
     </string-array>
 </resources>

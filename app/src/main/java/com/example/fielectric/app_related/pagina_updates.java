@@ -44,8 +44,9 @@ public class pagina_updates extends AppCompatActivity {
         String updateTitle10 = "<h1>✦Versiune Beta 1.0: </b>";
         String updateTitle11 = "<h1>✦Versiune Beta 1.1: </b>";
         String updateTitle12 = "<h1>✦Versiune Beta 1.1.1: </b>";
+        String updateTitle13 = "<h1>✦Versiune Beta 1.2: </b>";
 
-        String totalWorkTime = "<p>✦Total work time: 68 h</b>";
+        String totalWorkTime = "<h1>✦Total work time: 75 h</h1>";
 
         String updateText1 = "<p>⋆Creare aplicație" +
                 "<br>⋆Creare interfață meniu principal" +
@@ -97,8 +98,15 @@ public class pagina_updates extends AppCompatActivity {
         String updateText12 = "<p>⋆Testare adăugare buton sortare" +
                 "<br>⋆Modificare afisare informatii tichete rabla" +
                 "</p>";
+        String updateText13 = "<p>⋆Modificare stil pagină mașini rabla" +
+                "<br>⋆Adăugare buton pentru sortarea mașinilor" +
+                "<br>⋆Finalizare structură principală pentru \"Mașini\"" +
+                "<br>⋆Rezolvare mici buguri" +
+                "</p>";
 
-        Spanned textPentruAfisat = Html.fromHtml(updateTitle12 + updateText12 +
+        Spanned textPentruAfisat = Html.fromHtml( totalWorkTime +
+                updateTitle13 + updateText13 +
+                updateTitle12 + updateText12 +
                 updateTitle11 + updateText11 +
                 updateTitle10 + updateText10 +
                 updateTitle9 + updateText9 +
@@ -109,8 +117,7 @@ public class pagina_updates extends AppCompatActivity {
                 updateTitle4 + updateText4 +
                 updateTitle3 + updateText3 +
                 updateTitle2 + updateText2 +
-                updateTitle1 + updateText1 +
-                totalWorkTime);
+                updateTitle1 + updateText1);
 
         text.setText(textPentruAfisat);
     }

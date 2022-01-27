@@ -61,7 +61,7 @@ public class pagina_masini_dezavantaje extends AppCompatActivity {
                 "operațiune necesită o manoperă consistentă, fiind o piesă greu accesibilă." +
                 "Dacă optați pentru o mașină electrică second-hand, asigurați-vă că aceasta are o garanție valabilă pe " +
                 "acumulator și că a fost bine întreținută – cu reviziile periodice efectuate la timp.</p>";
-        String textdezavantaj5 = "</h1>✦ Stații de încărcare:</h1><p> în prezent, țara noastră are aproximativ 400 de stații de încărcare pentru vehicule electrice" +
+        String textdezavantaj5 = "<h1>✦ Stații de încărcare:</h1><p> în prezent, țara noastră are aproximativ 400 de stații de încărcare pentru vehicule electrice" +
                 " și, chiar dacă acest număr sună promițător, o bună parte dintre acestea au capacitatea de 1-2 mașini. Astfel, în eventualitatea" +
                 " (improbabilă actualmente) în care numărul de mașini electrice ar crește semnificativ, șoferii ar avea dificultăți în a-și încărca autoturismele." +
                 "Mai mult decât atât, numărul stațiilor de încărcare nu este distribuit uniform, unele județe având mai multe stații decât altele, făcând deținerea unei astfel de mașini mai facilă." +

@@ -90,7 +90,6 @@ public class pagina_masini extends AppCompatActivity implements NavigationView.O
             case R.id.meniu_despre_masini:
                 openDespre();
                 break;
-
             case R.id.meniu_program_rabla_clasic:
                 afiseazaClasic();
                 break;
@@ -115,7 +114,7 @@ public class pagina_masini extends AppCompatActivity implements NavigationView.O
     }
 
     private void openRabla() {
-        Intent intent = new Intent(this, pagina_masini_rabla.class);
+        Intent intent = new Intent(this, pagina_masini_rabla_v2.class);
         startActivity(intent);
     }
 
