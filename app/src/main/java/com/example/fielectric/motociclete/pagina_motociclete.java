@@ -25,7 +25,7 @@ import com.google.android.material.navigation.NavigationView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class pagina_motociclete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public final class pagina_motociclete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
 

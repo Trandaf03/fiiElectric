@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.example.fielectric.R;
 
-public class pagina_setari extends AppCompatActivity{
+public final class pagina_setari extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -14,7 +14,7 @@ import com.example.fielectric.informatii.motociclete;
 import java.util.ArrayList;
 import java.util.List;
 
-public class pagina_motociclete_rabla extends AppCompatActivity {
+public final class pagina_motociclete_rabla extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;

@@ -20,7 +20,7 @@ import com.example.fielectric.R;
 import org.w3c.dom.Text;
 
 //TODO scrie ce ai facut in update
-public class pagina_updates extends AppCompatActivity {
+public final class pagina_updates extends AppCompatActivity {
 
     private TextView text;
 

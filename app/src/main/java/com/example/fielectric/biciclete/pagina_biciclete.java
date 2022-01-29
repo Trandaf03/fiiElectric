@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class pagina_biciclete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public final class pagina_biciclete extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
 

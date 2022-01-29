@@ -16,7 +16,7 @@ import com.example.fielectric.R;
  * text:  android:fontFamily="@font/firasansblack" + android:textSize="15sp" dimensiune
  * butoane: android:fontFamily="@font/firasansmedium" + android:textSize="15sp"
  */
-public class pagina_bibliografie extends AppCompatActivity {
+public final class pagina_bibliografie extends AppCompatActivity {
 
     private TextView biblio;
 

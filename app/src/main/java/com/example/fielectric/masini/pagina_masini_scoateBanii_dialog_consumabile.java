@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
 
-public class pagina_masini_scoateBanii_dialog_consumabile extends AppCompatDialogFragment {
+public final class pagina_masini_scoateBanii_dialog_consumabile extends AppCompatDialogFragment {
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {

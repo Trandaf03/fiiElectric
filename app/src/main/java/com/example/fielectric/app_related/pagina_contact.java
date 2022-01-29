@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.example.fielectric.R;
 
-public class pagina_contact extends AppCompatActivity {
+public final class pagina_contact extends AppCompatActivity {
 
     private TextView text;
     private TextView imagineInsta;

@@ -17,7 +17,7 @@ import com.example.fielectric.R;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
-public class pagina_masini_scoateBanii extends AppCompatActivity {
+public final class pagina_masini_scoateBanii extends AppCompatActivity {
 
     private ImageButton infoConsumabile;
     private EditText consum;

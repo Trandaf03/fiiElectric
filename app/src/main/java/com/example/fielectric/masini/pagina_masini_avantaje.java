@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.example.fielectric.R;
 
-public class pagina_masini_avantaje extends AppCompatActivity {
+public final class pagina_masini_avantaje extends AppCompatActivity {
 
     private TextView avantaj1;
     private TextView avantaj2;

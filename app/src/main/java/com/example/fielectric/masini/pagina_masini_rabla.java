@@ -11,8 +11,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.fielectric.R;
-
-public class pagina_masini_rabla extends AppCompatActivity {
+@Deprecated
+public final class pagina_masini_rabla extends AppCompatActivity {
 
 
     private ImageButton teslamodelS;

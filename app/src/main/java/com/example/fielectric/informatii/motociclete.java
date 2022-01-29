@@ -1,6 +1,6 @@
 package com.example.fielectric.informatii;
 
-public class motociclete {
+public final class motociclete {
 
     public String nume;
     public String baterie;

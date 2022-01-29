@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.fielectric.R;
 
-public class pagina_despre extends AppCompatActivity {
+public final class pagina_despre extends AppCompatActivity {
 
     private Button veziUpdateuri;
     private Button veziBibliografie;

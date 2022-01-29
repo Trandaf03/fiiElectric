@@ -21,7 +21,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class pagina_masini_rabla_v2 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public final class pagina_masini_rabla_v2 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
 
     private RecyclerView recyclerView;
