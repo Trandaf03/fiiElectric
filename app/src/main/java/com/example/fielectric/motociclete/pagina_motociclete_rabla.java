@@ -54,7 +54,7 @@ public final class pagina_motociclete_rabla extends AppCompatActivity implements
 
 
         Spinner spinner = (Spinner) findViewById(R.id.sortare_motociclete);
-        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(this, R.array.sortare_masini_moto, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(this, R.array.sortare, android.R.layout.simple_spinner_item);
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(spinnerAdapter);
 
@@ -177,6 +177,7 @@ public final class pagina_motociclete_rabla extends AppCompatActivity implements
         listData.add(data11);
         listData.add(data12);
     }
+
     private void addNumeCrescator() {
         object_presenting_item_data data1 = new object_presenting_item_data(getName(ZeroSRF), getText(ZeroSRF), getImage(ZeroSRF));
         object_presenting_item_data data2 = new object_presenting_item_data(getName(ZeroSRS), getText(ZeroSRS), getImage(ZeroSRS));
@@ -204,6 +205,7 @@ public final class pagina_motociclete_rabla extends AppCompatActivity implements
         listData.add(data1);
         listData.add(data2);
     }
+
     private void addNumeDescrescator() {
         object_presenting_item_data data1 = new object_presenting_item_data(getName(ZeroSRF), getText(ZeroSRF), getImage(ZeroSRF));
         object_presenting_item_data data2 = new object_presenting_item_data(getName(ZeroSRS), getText(ZeroSRS), getImage(ZeroSRS));
@@ -231,6 +233,7 @@ public final class pagina_motociclete_rabla extends AppCompatActivity implements
         listData.add(data7);
         listData.add(data8);
     }
+
     private void addAutonomieCrescator() {
         object_presenting_item_data data1 = new object_presenting_item_data(getName(ZeroSRF), getText(ZeroSRF), getImage(ZeroSRF));
         object_presenting_item_data data2 = new object_presenting_item_data(getName(ZeroSRS), getText(ZeroSRS), getImage(ZeroSRS));
@@ -259,6 +262,7 @@ public final class pagina_motociclete_rabla extends AppCompatActivity implements
         listData.add(data4);
         listData.add(data6);
     }
+
     private void addAutonomieDescrescator() {
         object_presenting_item_data data1 = new object_presenting_item_data(getName(ZeroSRF), getText(ZeroSRF), getImage(ZeroSRF));
         object_presenting_item_data data2 = new object_presenting_item_data(getName(ZeroSRS), getText(ZeroSRS), getImage(ZeroSRS));
@@ -287,6 +291,7 @@ public final class pagina_motociclete_rabla extends AppCompatActivity implements
         listData.add(data5);
 
     }
+
     private void addPretCrescator() {
         object_presenting_item_data data1 = new object_presenting_item_data(getName(ZeroSRF), getText(ZeroSRF), getImage(ZeroSRF));
         object_presenting_item_data data2 = new object_presenting_item_data(getName(ZeroSRS), getText(ZeroSRS), getImage(ZeroSRS));
@@ -315,6 +320,7 @@ public final class pagina_motociclete_rabla extends AppCompatActivity implements
         listData.add(data2);
 
     }
+
     private void addPretDescrescator() {
         object_presenting_item_data data1 = new object_presenting_item_data(getName(ZeroSRF), getText(ZeroSRF), getImage(ZeroSRF));
         object_presenting_item_data data2 = new object_presenting_item_data(getName(ZeroSRS), getText(ZeroSRS), getImage(ZeroSRS));

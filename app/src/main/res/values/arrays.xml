@@ -10,7 +10,7 @@
         <item>reply_all</item>
     </string-array>
 
-    <string-array name="sortare_masini_moto">
+    <string-array name="sortare">
         <item>Sortare după</item>
         <item>Nume crescător</item>
         <item>Nume descrescător</item>

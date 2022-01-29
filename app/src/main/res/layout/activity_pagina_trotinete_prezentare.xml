@@ -4,59 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".motociclete.pagina_motociclete_rabla">
+    tools:context=".trotinete.pagina_trotinete_prezentare">
 
     <LinearLayout
-        android:id="@+id/firstlinearlayout_moto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
-            android:id="@+id/ignore4"
+            android:id="@+id/ignore5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/firasansextrabolditalic"
-            android:text="Motociclete electrice disponibile"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/ignore3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/firasansextrabolditalic"
-            android:text="prin programul rabla"
+            android:text="Trotinete electrice"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <Spinner
-            android:id="@+id/sortare_motociclete"
+            android:id="@+id/sortare_trotinete"
             android:layout_width="258dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck">
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
-        </Spinner>
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_view_pagina_moto_rabla"
+            android:id="@+id/recycler_view_pagina_trotinete"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout"
             tools:layout_editor_absoluteX="16dp">
 
         </androidx.recyclerview.widget.RecyclerView>
+
     </LinearLayout>
 </ScrollView>

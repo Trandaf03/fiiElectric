@@ -53,7 +53,7 @@ public final class pagina_masini_rabla_v2 extends AppCompatActivity implements A
         addElementsToList();
 
         Spinner spinner = (Spinner) findViewById(R.id.sortare_masini);
-        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(this, R.array.sortare_masini_moto, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(this, R.array.sortare, android.R.layout.simple_spinner_item);
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(spinnerAdapter);
 
@@ -274,6 +274,7 @@ public final class pagina_masini_rabla_v2 extends AppCompatActivity implements A
         listData.add(data1);
         listData.add(data3);
     }
+
     private void sortPretDescrescator() {
         object_presenting_item_data data1 = new object_presenting_item_data(getName(teslamodels), getText(teslamodels), getImage(teslamodels));
         object_presenting_item_data data2 = new object_presenting_item_data(getName(teslamodel3), getText(teslamodel3), getImage(teslamodel3));
@@ -323,6 +324,7 @@ public final class pagina_masini_rabla_v2 extends AppCompatActivity implements A
         listData.add(data21);
         listData.add(data5);
     }
+
     private final masini teslamodels = new masini("Tesla Model S", "555/535km", "652/637km", "90kWh", "250/322km/h", "46ore", "28-60min", "€99.990/€129.990", R.drawable.masini_rabla_models);
     private final masini teslamodel3 = new masini("Tesla Model 3", "350/455/470km", "448/614/567km", "52.5/70/76kWh", "225/233/261km/h", "27/36/39ore", "20-70min", "€42,990/€51,990/€59,990", R.drawable.masini_rabla_model3);
     private final masini teslamodelx = new masini("Tesla Model X", "475/455km", "580/547km", "90kWh", "250/262km/h", "46ore", "28-60min", "€109,990/€119,990", R.drawable.masini_rabla_modelx);

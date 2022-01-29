@@ -76,6 +76,19 @@ public final class pagina_trotinete extends AppCompatActivity implements Navigat
                 break;
             case R.id.go_to_prima_pagina_trotinete:
                 openMeniuPrincipal();
+                break;
+            case R.id.pagina_trotinete_prezentare:
+                openPrezentare();
+                break;
+            case R.id.meniu_avantaje_trotinete:
+                openAvantaje();
+                break;
+            case R.id.meniu_dezavantaje_trotinete:
+                openDezavantaje();
+                break;
+            case R.id.meniu_merita_trotinete:
+                openMerita();
+                break;
         }
         return true;
     }
@@ -108,6 +121,22 @@ public final class pagina_trotinete extends AppCompatActivity implements Navigat
 
     private void openContact() {
         Intent intent = new Intent(this, pagina_contact.class);
+        startActivity(intent);
+    }
+    private void openPrezentare() {
+        Intent intent = new Intent(this, pagina_trotinete_prezentare.class);
+        startActivity(intent);
+    }
+    private void openAvantaje() {
+        Intent intent = new Intent(this, pagina_trotinete_avantaje.class);
+        startActivity(intent);
+    }
+    private void openDezavantaje() {
+        Intent intent = new Intent(this, pagina_trotinete_dezavantaje.class);
+        startActivity(intent);
+    }
+    private void openMerita() {
+        Intent intent = new Intent(this, pagina_trotinete_merita.class);
         startActivity(intent);
     }
 }
