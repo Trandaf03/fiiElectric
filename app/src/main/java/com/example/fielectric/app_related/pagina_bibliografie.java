@@ -42,7 +42,7 @@ public final class pagina_bibliografie extends AppCompatActivity {
                 "<br>⋆https://ev-database.org/" +
                 "<br>⋆https://www.tesla.com" +
                 "<br>⋆https://www.g4media.ro/vrei-o-masina-electrica-top-5-avantaje-si-dezavantaje.html" +
-                "<br>⋆" +
+                "<br>⋆https://www.rabla.ro/programul-rabla-2022/" +
                 "<br>⋆" +
                 "<br>⋆" +
                 "<br>⋆" +

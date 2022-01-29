@@ -1,5 +1,6 @@
 package com.example.fielectric.masini;
 
+@Deprecated
 public final class pagina_masini_popup_texts {
 
     public pagina_masini_popup_texts() {

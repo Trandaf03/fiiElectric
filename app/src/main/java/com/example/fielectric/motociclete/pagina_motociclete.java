@@ -19,7 +19,10 @@ import com.example.fielectric.appUtil.news_item_stire_data;
 import com.example.fielectric.app_related.pagina_contact;
 import com.example.fielectric.app_related.pagina_despre;
 import com.example.fielectric.app_related.pagina_principala;
+import com.example.fielectric.app_related.pagina_rabla;
 import com.example.fielectric.app_related.pagina_setari;
+import com.example.fielectric.masini.pagina_masini_avantaje;
+import com.example.fielectric.masini.pagina_masini_dezavantaje;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
@@ -81,6 +84,15 @@ public final class pagina_motociclete extends AppCompatActivity implements Navig
             case R.id.pagina_motociclete_rabla:
                 openRablaMoto();
                 break;
+            case R.id.meniu_program_rabla_detalii:
+                openDetalii();
+                break;
+            case R.id.meniu_avantaje_motociclete:
+                openAvantaje();
+                break;
+            case R.id.meniu_dezavantaje_motociclete:
+                openDezavantaje();
+                break;
         }
         return true;
     }
@@ -118,6 +130,21 @@ public final class pagina_motociclete extends AppCompatActivity implements Navig
 
     private void openRablaMoto() {
         Intent intent = new Intent(this, pagina_motociclete_rabla.class);
+        startActivity(intent);
+    }
+
+    private void openDetalii() {
+        Intent intent = new Intent(this, pagina_rabla.class);
+        startActivity(intent);
+
+    }
+    private void openAvantaje() {
+        Intent intent = new Intent(this, pagina_motociclete_avantaje.class);
+        startActivity(intent);
+    }
+
+    private void openDezavantaje() {
+        Intent intent = new Intent(this, pagina_motociclete_dezavantaje.class);
         startActivity(intent);
     }
 }

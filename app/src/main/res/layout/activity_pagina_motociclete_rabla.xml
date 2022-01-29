@@ -42,7 +42,13 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
+        <Spinner
+            android:id="@+id/sortare_motociclete"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
 
+        </Spinner>
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view_pagina_moto_rabla"
             android:layout_width="match_parent"

@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FiElectric">
         <activity
+            android:name=".motociclete.pagina_motociclete_dezavantaje"
+            android:exported="false" />
+        <activity
+            android:name=".motociclete.pagina_motociclete_avantaje"
+            android:exported="false" />
+        <activity
+            android:name=".app_related.pagina_rabla"
+            android:exported="false" />
+        <activity
             android:name=".masini.pagina_masini_rabla_v2"
             android:exported="false" />
         <activity

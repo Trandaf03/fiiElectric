@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
 
+@Deprecated
 public final class pagina_masini_popup extends AppCompatDialogFragment {
 
     private String textAfisare;

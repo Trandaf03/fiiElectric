@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view_motociclete"
-    tools:ignore="HardcodedText">
-
+    tools:ignore="HardcodedText"
+    tools:showIn="navigation_view_motociclete">
 
 
     <item
@@ -13,13 +12,23 @@
             <item
                 android:id="@+id/go_to_prima_pagina_motociclete"
                 android:icon="@drawable/ic_baseline_home_24"
-                android:title="Prima pagină">
-            </item>
+                android:title="Prima pagină"></item>
             <item
                 android:id="@+id/pagina_motociclete_rabla"
                 android:icon="@drawable/ic_baseline_electric_moped_24"
-                android:title="Rabla moto">
-            </item>
+                android:title="Rabla moto"></item>
+            <item
+                android:id="@+id/meniu_program_rabla_detalii"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="Programul rabla" />
+            <item
+                android:id="@+id/meniu_avantaje_motociclete"
+                android:icon="@drawable/ic_baseline_keyboard_arrow_up_24"
+                android:title="Avantaje" />
+            <item
+                android:id="@+id/meniu_dezavantaje_motociclete"
+                android:icon="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:title="Dezavantaje" />
         </menu>
     </item>
 

@@ -53,7 +53,7 @@ public final class pagina_masini_rabla_v2 extends AppCompatActivity implements A
         addElementsToList();
 
         Spinner spinner = (Spinner) findViewById(R.id.sortare_masini);
-        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(this, R.array.sortare_masini, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(this, R.array.sortare_masini_moto, android.R.layout.simple_spinner_item);
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(spinnerAdapter);
 
@@ -66,9 +66,6 @@ public final class pagina_masini_rabla_v2 extends AppCompatActivity implements A
     public void onItemSelected(@NonNull AdapterView<?> parent, View view, int position, long id) {
         String chestie = parent.getItemAtPosition(position).toString();
         switch (chestie) {
-            case "Random":
-                sortChoice = masini_sorting.random;
-                break;
             case "Nume crescător":
                 sortChoice = masini_sorting.by_name_crescator;
                 break;
@@ -86,6 +83,9 @@ public final class pagina_masini_rabla_v2 extends AppCompatActivity implements A
                 break;
             case "Preț descrescător":
                 sortChoice = masini_sorting.by_price_descrescator;
+                break;
+            default:
+                sortChoice = masini_sorting.random;
                 break;
         }
         actualizeaza();
