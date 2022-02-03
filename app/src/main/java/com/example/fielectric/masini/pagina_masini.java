@@ -52,7 +52,7 @@ public final class pagina_masini extends AppCompatActivity implements Navigation
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view_pagina_principala);
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view_pagina_masini);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 

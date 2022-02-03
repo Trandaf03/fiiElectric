@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".biciclete.pagina_biciclete_dezavantaje">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:gravity="center"
+            android:text="Dezavantaje"
+            android:textSize="48sp"
+            android:textStyle="bold|italic"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/biciclete_dezavantaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_weight="0.8"
+            android:fontFamily="@font/firasansblack"
+            android:text=""
+            android:textSize="15sp"
+            tools:ignore="InefficientWeight" />
+    </LinearLayout>
+</ScrollView>

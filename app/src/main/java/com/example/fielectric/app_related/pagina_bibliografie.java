@@ -43,16 +43,17 @@ public final class pagina_bibliografie extends AppCompatActivity {
                 "<br>⋆https://www.tesla.com" +
                 "<br>⋆https://www.g4media.ro/vrei-o-masina-electrica-top-5-avantaje-si-dezavantaje.html" +
                 "<br>⋆https://www.rabla.ro/programul-rabla-2022/" +
-                "<br>⋆" +
+                "<br>⋆https://www.smart-products.ro/blog/ar-trebui-sa-cumpar-o-trotineta-electrica-avantaje-dezavantaje" +
+                "<br>⋆https://www.altex.ro" +
+                "<br>⋆https://bunadimineata.ro/lifestyle/bicicleta-electrica-avantaje-si-dezavantaje/" +
+                "<br>⋆https://shopniac.ro/biciclete-electrice-6353/" +
                 "<br>⋆" +
                 "<br>⋆" +
                 "<br>⋆" +
                 "<br>⋆" +
                 "</p>";
 
-        Spanned textDeAfisat = Html.fromHtml(titlu + linkuri);
-
-        biblio.setText(textDeAfisat);
+        biblio.setText(Html.fromHtml(titlu + linkuri));
 
     }
 }

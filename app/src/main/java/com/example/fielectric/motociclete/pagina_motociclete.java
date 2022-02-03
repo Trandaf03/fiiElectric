@@ -53,7 +53,7 @@ public final class pagina_motociclete extends AppCompatActivity implements Navig
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view_pagina_principala);
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view_pagina_motociclete);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 

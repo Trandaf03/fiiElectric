@@ -18,7 +18,7 @@
             <item
                 android:id="@+id/pagina_trotinete_prezentare"
                 android:icon="@drawable/ic_baseline_electric_scooter_24"
-                android:title="Trotinete electrice"></item>
+                android:title="Trotinete electrice"/>
             <item
                 android:id="@+id/meniu_avantaje_trotinete"
                 android:icon="@drawable/ic_baseline_keyboard_arrow_up_24"
@@ -29,7 +29,7 @@
                 android:title="Dezavantaje" />
             <item
                 android:id="@+id/meniu_merita_trotinete"
-                android:icon="@drawable/ic_baseline_equals_24"
+                android:icon="@drawable/ic_baseline_question_answer_24"
                 android:title="Merită?" />
         </menu>
     </item>

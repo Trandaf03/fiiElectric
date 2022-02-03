@@ -50,7 +50,7 @@ public final class pagina_trotinete extends AppCompatActivity implements Navigat
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view_pagina_principala);
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view_pagina_trotinete);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 

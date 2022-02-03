@@ -13,8 +13,23 @@
             <item
                 android:id="@+id/go_to_prima_pagina_biciclete"
                 android:icon="@drawable/ic_baseline_home_24"
-                android:title="Prima pagină">
-            </item>
+                android:title="Prima pagină"/>
+            <item
+                android:id="@+id/pagina_biciclete_prezentare"
+                android:icon="@drawable/ic_baseline_electric_scooter_24"
+                android:title="Biciclete electrice"/>
+            <item
+                android:id="@+id/meniu_avantaje_biciclete"
+                android:icon="@drawable/ic_baseline_keyboard_arrow_up_24"
+                android:title="Avantaje" />
+            <item
+                android:id="@+id/meniu_dezavantaje_biciclete"
+                android:icon="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:title="Dezavantaje" />
+            <item
+                android:id="@+id/meniu_cumfunctioneaza_biciclete"
+                android:icon="@drawable/ic_baseline_question_answer_24"
+                android:title="Cum funcționează?" />
         </menu>
     </item>
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".trotinete.pagina_trotinete_prezentare">
+    tools:context=".biciclete.pagina_biciclete_prezentare">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,26 +13,27 @@
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="HardcodedText">
 
+
         <TextView
-            android:id="@+id/ignore5"
+            android:id="@+id/ignore6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/firasansextrabolditalic"
-            android:text="Trotinete electrice"
+            android:text="Biciclete electrice"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <Spinner
-            android:id="@+id/sortare_trotinete"
+            android:id="@+id/sortare_biciclete"
             android:layout_width="258dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            tools:ignore="RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_view_pagina_trotinete_electrice"
+            android:id="@+id/recycler_view_pagina_biciclete_electrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout"

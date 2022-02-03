@@ -120,6 +120,12 @@ public final class pagina_motociclete_rabla extends AppCompatActivity implements
             default:
                 break;
         }
+        object_presenting_item_data vreiObiectulTau = new object_presenting_item_data("Vrei și alte vehicule electrice?", "" +
+                "<b>Vrei ca vehiculul tău electric să apară în aplicația noastră? Atunci așteptăm un mesaj pe " +
+                "Facebook-ul sau Instragramul nostru, regăsite pe pagina de contact" +
+                "<br><b><br><b> Nu uita! Încă suntem la început, deci aplicația o să fie actualizată foarte des", R.drawable.ic_baseline_help_24);
+        listData.add(vreiObiectulTau);
+
         adapter = new object_presenting_adapter(listData, this);
         recyclerView.setAdapter(adapter);
     }

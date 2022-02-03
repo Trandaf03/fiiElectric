@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
+import com.example.fielectric.appUtil.news_item_adapter;
 import com.example.fielectric.appUtil.news_item_stire_data;
 import com.example.fielectric.app_related.pagina_contact;
 import com.example.fielectric.app_related.pagina_despre;
@@ -50,15 +51,16 @@ public final class pagina_biciclete extends AppCompatActivity implements Navigat
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view_pagina_principala);
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view_pagina_biciclete);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         // here goes the news
         listData = new ArrayList<>();
         news_item_stire_data test = new news_item_stire_data("test", "test", R.drawable.masini_rabla_corsae);
-
         listData.add(test);
+
+        adapter = new news_item_adapter(listData, this);
         recyclerView.setAdapter(adapter);
     }
 
@@ -75,6 +77,19 @@ public final class pagina_biciclete extends AppCompatActivity implements Navigat
                 break;
             case R.id.go_to_prima_pagina_biciclete:
                 openMeniuPrincipal();
+                break;
+            case R.id.meniu_avantaje_biciclete:
+                openAvantaje();
+                break;
+            case R.id.meniu_dezavantaje_biciclete:
+                openDezavantaje();
+                break;
+            case R.id.meniu_cumfunctioneaza_biciclete:
+                openCumFunctioneaza();
+                break;
+            case R.id.pagina_biciclete_prezentare:
+                openPrezentare();
+                break;
         }
         return true;
     }
@@ -107,6 +122,26 @@ public final class pagina_biciclete extends AppCompatActivity implements Navigat
 
     private void openContact() {
         Intent intent = new Intent(this, pagina_contact.class);
+        startActivity(intent);
+    }
+
+    private void openPrezentare() {
+        Intent intent = new Intent(this, pagina_biciclete_prezentare.class);
+        startActivity(intent);
+    }
+
+    private void openAvantaje() {
+        Intent intent = new Intent(this, pagina_biciclete_avantaje.class);
+        startActivity(intent);
+    }
+
+    private void openDezavantaje() {
+        Intent intent = new Intent(this, pagina_biciclete_dezavantaje.class);
+        startActivity(intent);
+    }
+
+    private void openCumFunctioneaza() {
+        Intent intent = new Intent(this, pagina_biciclete_cum_functioneaza.class);
         startActivity(intent);
     }
 

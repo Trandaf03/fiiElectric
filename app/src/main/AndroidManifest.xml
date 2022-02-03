@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FiElectric">
         <activity
+            android:name=".biciclete.pagina_biciclete_dezavantaje"
+            android:exported="false" />
+        <activity
+            android:name=".biciclete.pagina_biciclete_avantaje"
+            android:exported="false" />
+        <activity
+            android:name=".biciclete.pagina_biciclete_cum_functioneaza"
+            android:exported="false" />
+        <activity
+            android:name=".biciclete.pagina_biciclete_prezentare"
+            android:exported="false" />
+        <activity
             android:name=".trotinete.pagina_trotinete_merita"
             android:exported="false" />
         <activity
