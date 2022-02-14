@@ -17,6 +17,7 @@ public final class pagina_rabla extends AppCompatActivity {
     private TextView rabla_clasic_text;
     private TextView rabla_plus_link;
     private TextView rabla_clasic_link;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
