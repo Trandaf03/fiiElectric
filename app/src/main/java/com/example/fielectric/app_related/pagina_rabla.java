@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
 import com.example.fielectric.R;
@@ -14,21 +15,32 @@ public final class pagina_rabla extends AppCompatActivity {
     private TextView rabla_plus_text;
     private TextView rabla_clasic_titlu;
     private TextView rabla_clasic_text;
+    private TextView rabla_plus_link;
+    private TextView rabla_clasic_link;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina_rabla);
 
+
         rabla_clasic_text = (TextView) findViewById(R.id.rabla_text_clasic);
         rabla_clasic_titlu = (TextView) findViewById(R.id.rabla_titlu_clasic);
         rabla_plus_text = (TextView) findViewById(R.id.rabla_text_plus);
         rabla_plus_titlu = (TextView) findViewById(R.id.rabla_titlu_plus);
+        rabla_plus_link = (TextView) findViewById(R.id.rabla_plus_link);
+        rabla_clasic_link = (TextView) findViewById(R.id.rabla_clasic_link);
 
-        rabla_clasic_text.setText(Html.fromHtml(clasic_text));
+        rabla_plus_link.setMovementMethod(LinkMovementMethod.getInstance());
+        rabla_clasic_link.setMovementMethod(LinkMovementMethod.getInstance());
+
+
+        rabla_clasic_text.setText(Html.fromHtml(clasic_text2));
         rabla_clasic_titlu.setText(Html.fromHtml(clasic_title));
+        rabla_clasic_link.setText(Html.fromHtml(clasic_link));
 
         rabla_plus_titlu.setText(Html.fromHtml(plus_title));
-        rabla_plus_text.setText(Html.fromHtml(plus_text));
+        rabla_plus_text.setText(Html.fromHtml(plus_text2));
+        rabla_plus_link.setText(Html.fromHtml(plus_link));
     }
 
 
@@ -53,5 +65,36 @@ public final class pagina_rabla extends AppCompatActivity {
             "<br><b>⋆un eco-tichet de 45.000 de lei pentru achizitia unei masini 100% electrice"
             + "</br>";
 
+
+    private String clasic_text2 = "<p>✦ Prima de casare se acordă în funcţie de cantitatea de emisii de CO_2 km generată de sistemul de propulsie " +
+            "al autovehiculului nou, astfel: </p>" +
+            " <b>-> pentru autovehiculul nou, exceptând motocicletele, al cărui sistem de propulsie generează maximum 160 g" +
+            "CO2/km în sistem WLTP" +
+            " <br><b>-> pentru autovehiculul nou motocicletă, al cărui sistem de propulsie generează maximum 120 g CO2/km în" +
+            "sistem WMTC, conform informaţiilor înscrise în COC <br>" +
+            "<p>✦ Cuantumul primei de casare este de:</p>" +
+            "<b> -> 6.000 lei pentru achiziţionarea unei motociclete în schimbul casării unui autovehicul uzat <br>" +
+            "<b> -> 6.000 lei pentru achiziţionarea unui autovehicul nou în schimbul casării unui autovehicul uzat <br>" +
+            "<b> -> 9.000 lei pentru achiziţionarea unui autovehicul nou în schimbul casării a două autovehicule uzate <br>" +
+            "<p>✦  La prima de casare se pot adăuga următoarele ecobonusuri, astfel:</p>" +
+            "<b> -> 1.500 lei, pentru autovehiculul nou, exceptând motocicletele, al cărui sistem de propulsie generează maximum 120 g CO_2/km în sistem WLTP <br>" +
+            "<b> -> 1.500 lei, pentru autovehiculul nou, exceptând motocicletele, echipat cu motorizare GPL/GNC <br>" +
+            "<b> -> 3.000 lei, se acordă pentru autovehiculul nou, exceptând motocicletele, echipat cu sistem de propulsie hibrid <br>" +
+            "<b> -> 1.500 lei, pentru casarea fiecărui autovehicul uzat cu o vechime de cel puţin 15 ani de la data fabricaţiei şi care are norma de poluare Euro 3 sau inferioară <br>" +
+            "<b> -> 1.500 lei, pentru autovehiculul nou motocicletă al cărui sistem de propulsie generează maximum 90 g CO_2/km în sistem WMTC <br>" +
+            "<p> În situaţia în care sistemul de propulsie al autovehiculului nou îndeplineşte mai multe dintre caracteristicile prevăzute mai sus, ecobonusurile se pot cumula. </p>";
+
+    private String plus_text2 = "<p>✦Cuantumul ecotichetului pentru casarea unui singur autovehicul uzat este de:</p>" +
+            "<b> -> 51.000 lei pentru achiziţionarea unui autovehicul nou pur electric sau a unui autovehicul nou cu pilă de combustie cu hidrogen, exceptând motocicleta <br>" +
+            "<b> -> 26.000 lei pentru achiziţionarea unui autovehicul nou electric hibrid, exceptând motocicleta, care generează maximum 80 g CO_2/km în sistem WLTP <br>" +
+            "<b> -> 26.000 lei pentru achiziţionarea unei motociclete electrice <br>" +
+            "<p>✦ Cuantumul ecotichetului pentru casarea a două autovehicule uzate este de:" +
+            "<b> -> 54.000 lei pentru achiziţionarea unui autovehicul nou pur electric sau a unui autovehicul nou cu pilă de combustie cu hidrogen, exceptând motocicleta <br>" +
+            "<b> -> 29.000 lei pentru achiziţionarea unui autovehicul nou electric hibrid, exceptând motocicleta, care generează maximum 80 g CO_2/km în sistem WLTP <br>" +
+            "<p>✦La ecotichet se poate adăuga un ecobonus în cuantum de 1.500 lei, pentru casarea fiecărui autovehicul uzat cu o vechime de cel puţin 15 ani de la data fabricaţiei şi care are norma de poluare Euro 3 sau inferioară. </p>" +
+            "<p>✦Ecotichetul nu se cumulează cu alte programe care finanţează achiziţionarea autovehiculelor noi.  </p>";
+
+    private String clasic_link = "<a href=\"https://www.afm.ro/main/programe/psipan/2022/ordin_180-02_02_2022-psipan.pdf\">Detalii program Rabla Clasic</a>";
+    private String plus_link = "<a href=\"https://www.afm.ro/main/programe/vehicule_electrice/2022/ghid_rabla_plus-04_02_2022.pdf\">Detalii program Rabla Plus</a>";
 
 }

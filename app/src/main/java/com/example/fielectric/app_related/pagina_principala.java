@@ -6,14 +6,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.preference.PreferenceManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.fielectric.R;
+import com.example.fielectric.appUtil.app_popup;
 import com.example.fielectric.appUtil.news_item_adapter;
 import com.example.fielectric.appUtil.news_item_stire_data;
 import com.example.fielectric.biciclete.pagina_biciclete;
@@ -64,6 +67,13 @@ public final class pagina_principala extends AppCompatActivity implements Naviga
 
         adapter = new news_item_adapter(listData, this);
         recyclerView.setAdapter(adapter);
+
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        if(sharedPreferences.getBoolean("IS_FIRST_TIME", true)) {
+            popupStart("Nu uita! Aplicația este încă în dezvoltare. Dacă întâmpini probleme, nu uita să ne contactezi!");
+            sharedPreferences.edit().putBoolean("IS_FIRST_TIME", false).apply();
+        }
+
     }
 
     @Override
@@ -140,5 +150,9 @@ public final class pagina_principala extends AppCompatActivity implements Naviga
         startActivity(intent);
     }
 
-
+    private void popupStart(String text) {
+        app_popup dialog = new app_popup();
+        dialog.setTextAfisare(text);
+        dialog.show(getSupportFragmentManager(), "exemplu");
+    }
 }

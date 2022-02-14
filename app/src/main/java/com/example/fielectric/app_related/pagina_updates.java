@@ -48,8 +48,9 @@ public final class pagina_updates extends AppCompatActivity {
         String updateTitle14 = "<h1>✦Versiune Beta 1.3: </b>";
         String updateTitle15 = "<h1>✦Versiune Beta 1.4: </b>";
         String updateTitle16 = "<h1>✦Versiune Beta 1.5: </b>";
+        String updateTitle17 = "<h1>✦Versiune Beta 1.5.1: </b>";
 
-        String totalWorkTime = "<h1>✦Total work time: 83 h</h1>";
+        String totalWorkTime = "<h1>✦Total work time: 85 h</h1>";
 
         String updateText1 = "<p>⋆Creare aplicație" +
                 "<br>⋆Creare interfață meniu principal" +
@@ -86,7 +87,7 @@ public final class pagina_updates extends AppCompatActivity {
         String updateText9 = "<p>⋆Adăugare meniuri laterale pentru paginile principale" +
                 "<br>⋆Modificare stil stiri" +
                 "<br>⋆Rezolvare mici bug-uri" +
-                "<br>⋆Modificare stil cod de baza" +
+                "<br>⋆Modificare stil cod de bază" +
                 "</p>";
         String updateText10 = "<p>⋆Ultime finisaje pentru aplicație" +
                 "<br>⋆Modificare iconiță aplicație" +
@@ -106,7 +107,7 @@ public final class pagina_updates extends AppCompatActivity {
                 "<br>⋆Finalizare structură principală pentru \"Mașini\"" +
                 "<br>⋆Rezolvare mici buguri" +
                 "</p>";
-        String updateText14 = "<p>⋆Adăugare pagină detalii despre program rabla" +
+        String updateText14 = "<p>⋆Adăugare pagină detalii desperate program rabla" +
                 "<br>⋆Adăugare buton pentru sortarea motocicletelor" +
                 "<br>⋆Finalizare structură principală pentru \"Motociclete\"" +
                 "<br>⋆Rezolvare mici buguri" +
@@ -116,7 +117,13 @@ public final class pagina_updates extends AppCompatActivity {
         String updateText16 = "<p>⋆Finalizare structură principală pentru \"Biciclete\"" +
                 "<br>⋆Mici modificări aduse aplicației (rezolvari buguri)" +
                 "</p>";
+
+        String updateText17 = "<p>⋆Reactualizare informații tichete rabla" +
+                "<br>⋆Mici modificări aduse aplicației" +
+                "</p>";
+
         Spanned textPentruAfisat = Html.fromHtml(totalWorkTime +
+                updateTitle17 + updateText17 +
                 updateTitle16 + updateText16 +
                 updateTitle15 + updateText15 +
                 updateTitle14 + updateText14 +
