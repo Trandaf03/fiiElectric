@@ -65,6 +65,14 @@ public final class pagina_principala extends AppCompatActivity implements Naviga
         news_item_stire_data test2 = new news_item_stire_data("Noua Dacia Spring", "merge :)", R.drawable.masini_rabla_spring);
         listData.add(test2);
 
+        news_item_stire_data test3 = new news_item_stire_data("Aici vine titlul","iar aici vine descrierea, iar acolo vine imaginea", R.drawable.masini_rabla_id3);
+        listData.add(test3);
+
+        news_item_stire_data test4 = new news_item_stire_data("Stire fara nume, cu un nume lung defapt","" +
+                "poate si o descriere foarte lunga pentru a demonstra cat de lunga poate fi si o descriere, bineineles in anumite " +
+                "limite exista si aici , text 100% corect gramatical daca cineva ma intreaba pe mine, sigur, imagine random", R.drawable.trotinete_xiaomimipro2);
+        listData.add(test4);
+
         adapter = new news_item_adapter(listData, this);
         recyclerView.setAdapter(adapter);
 
