@@ -42,6 +42,21 @@
             app:layout_constraintTop_toBottomOf="@+id/logofb"
             app:layout_constraintVertical_bias="0.23" />
 
+        <TextView
+            android:id="@+id/instaTextrares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="@+id/logoinsta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toEndOf="@+id/logoinsta"
+            app:layout_constraintTop_toBottomOf="@+id/logofb"
+            app:layout_constraintVertical_bias="0.23" />
+
 
         <ImageView
             android:id="@+id/logofb"
@@ -68,6 +83,21 @@
             app:layout_constraintTop_toTopOf="@+id/logofb"
             app:layout_constraintVertical_bias="0.573" />
 
+        <TextView
+            android:id="@+id/textFbrares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:fontFamily="@font/firasansextrabolditalic"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/logofb"
+            app:layout_constraintEnd_toEndOf="@+id/instaText"
+            app:layout_constraintStart_toStartOf="@+id/instaText"
+            app:layout_constraintTop_toTopOf="@+id/logofb"
+            app:layout_constraintVertical_bias="0.573" />
+
         <ImageView
             android:id="@+id/pozadescriere"
             android:layout_width="222dp"
@@ -79,6 +109,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/logoinsta"
             app:srcCompat="@drawable/contact" />
+
+        <ImageView
+            android:id="@+id/pozadescriererares"
+            android:layout_width="222dp"
+            android:layout_height="392dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-30dp"
+            android:translationY="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logoinsta"
+            app:srcCompat="@drawable/contactrares" />
 
 
         <TextView
